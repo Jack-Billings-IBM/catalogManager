@@ -1673,3 +1673,1455 @@ Created Time: 2020-03-10 16:26:40.229
 
 !ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:46.923
 !MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.498
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.499
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.499
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.499
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.509
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.510
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.510
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.511
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.524
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.542
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.546
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.546
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.562
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.564
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.571
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.572
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.585
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.585
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.588
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.589
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.604
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.604
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.605
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.605
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.706
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.706
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.706
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.706
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.707
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.707
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.708
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.708
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.708
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.708
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.709
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.709
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.713
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.713
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:26:49.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:26:49.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:05.179
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:05.181
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:05.181
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:05.182
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:05.185
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:05.185
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:05.186
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:05.186
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.259
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.262
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.262
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.263
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.264
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.268
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.268
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.268
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.269
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.270
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.271
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:29.272
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:29.272
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:34.664
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:34.664
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:34.665
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:34.665
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:34.666
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:34.667
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:34.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:34.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.669
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.690
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.690
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.691
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.692
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.696
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.696
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.697
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.697
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.703
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.704
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.705
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.715
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.716
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:35.717
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:35.718
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.014
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.014
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.017
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.018
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.020
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.021
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.023
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.023
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.023
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.026
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.028
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.029
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.040
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.046
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.060
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.068
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.196
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.198
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.199
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.200
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.200
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.200
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.209
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.209
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.233
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.234
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.234
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.234
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.235
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.237
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.239
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.239
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.239
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.240
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.240
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.262
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.264
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.264
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.265
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.266
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.266
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:36.267
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:36.268
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.430
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.430
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.431
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.431
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.556
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.556
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.557
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.557
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.560
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.560
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.561
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.562
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.564
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.564
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.565
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.565
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.567
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.567
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.568
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.568
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.570
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.572
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.574
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.575
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.584
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.586
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.587
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.587
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.588
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.588
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.588
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.588
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.589
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.589
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.589
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.590
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.590
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.590
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.590
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.590
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.591
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.591
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:37.592
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:37.592
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:39.986
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:39.986
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:39.988
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:39.991
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:39.995
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:39.997
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.001
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.003
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.005
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.005
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.006
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.011
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.105
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.106
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.107
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.107
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.108
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.108
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.108
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.109
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.109
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.109
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.113
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.113
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.113
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.114
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.115
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.116
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.119
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.119
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.119
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.120
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.120
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.121
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.121
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.126
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.129
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.129
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.130
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.130
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.132
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.133
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.134
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.134
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.135
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.137
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.138
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.138
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.209
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.209
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.211
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.219
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.221
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.221
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.223
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.232
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.233
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.234
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.235
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.235
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.236
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.237
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.237
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.237
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.238
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.238
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.239
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.239
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.240
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.240
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.241
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.241
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.244
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.245
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.246
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.246
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.246
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.246
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.247
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.247
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.248
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.248
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.249
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.249
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.289
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.289
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.290
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.290
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.294
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.295
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.295
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.296
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.415
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.416
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.417
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.417
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.421
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.422
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.422
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.423
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.423
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.424
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.424
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.424
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.426
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.426
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.426
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.426
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.427
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.427
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:40.428
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:40.429
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.698
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.698
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.698
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.698
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.699
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.699
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.699
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.700
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.701
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.702
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.702
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.702
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.702
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.702
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.703
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.703
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.704
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.704
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.704
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.710
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.711
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.712
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.714
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.719
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.719
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.719
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.720
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.729
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.729
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.729
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.729
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.730
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.730
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.730
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.731
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.731
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.731
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.733
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.734
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.734
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.734
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.734
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.735
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.738
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.738
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.739
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.739
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.739
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.739
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.740
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.785
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.786
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.795
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.797
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.816
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.817
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.818
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.818
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.825
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.825
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.826
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.826
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.828
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.829
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.831
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.832
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.835
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.835
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.836
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.836
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.840
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.841
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.842
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.842
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.844
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.845
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.846
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.846
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.959
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.964
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.967
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.968
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.968
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.968
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:41.993
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:41.994
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.003
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.006
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.045
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.046
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.047
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.049
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.050
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.051
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.064
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.064
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.066
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.070
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.071
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.072
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.072
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.073
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.074
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.075
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.080
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.081
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.125
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.126
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.126
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.127
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.160
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.163
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.171
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.172
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.243
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.244
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.244
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.244
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.254
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.254
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.254
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.255
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.258
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.259
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.259
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.259
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.259
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.260
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LoginHandler 2 30000 2020-03-10 16:27:42.261
+!MESSAGE could not get SSOService
+
+!ENTRY com.ez.analysis.mainframe.explore.login.LogoutHandler 2 30000 2020-03-10 16:27:42.261
+!MESSAGE could not get SSOService
