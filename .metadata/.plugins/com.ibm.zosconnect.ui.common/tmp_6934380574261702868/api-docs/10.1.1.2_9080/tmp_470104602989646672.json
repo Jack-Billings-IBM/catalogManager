@@ -1,0 +1,99 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "catalogmanager"
+  },
+  "host" : "10.1.1.2:9080",
+  "basePath" : "/catalogmanager",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/item/{itemID}" : {
+      "get" : {
+        "tags" : [ "catalogmanager" ],
+        "operationId" : "getInquireSingle",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "itemID",
+          "in" : "path",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/getInquireSingle_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "getInquireSingle_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "returnCode" : {
+              "type" : "integer",
+              "minimum" : 0,
+              "maximum" : 99
+            },
+            "responseMessage" : {
+              "type" : "string",
+              "maxLength" : 79
+            },
+            "inquireSingle" : {
+              "type" : "object",
+              "properties" : {
+                "item" : {
+                  "type" : "object",
+                  "properties" : {
+                    "itemID" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    },
+                    "description" : {
+                      "type" : "string",
+                      "maxLength" : 40
+                    },
+                    "department" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
+                    },
+                    "cost" : {
+                      "type" : "string",
+                      "maxLength" : 6
+                    },
+                    "stock" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    },
+                    "onOrder" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

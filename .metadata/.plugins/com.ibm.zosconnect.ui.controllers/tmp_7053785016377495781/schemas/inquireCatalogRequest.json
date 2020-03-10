@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "DFH0XCP1" : {
+      "type" : "object",
+      "properties" : {
+        "CA_REQUEST_ID" : {
+          "maxLength" : 6,
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

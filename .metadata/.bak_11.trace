@@ -1,0 +1,2 @@
+[Mon Mar 09 13:09:50 CDT 2020] 1 com.ibm.ftt.core.migration.impl.MigrationPlugin com.ibm.ftt.core.migration.impl(FINE): com.ibm.ftt.core.migration.impl:start: MigrationPlugin logging initiated
+[Mon Mar 09 13:09:51 CDT 2020] 1 com.ibm.ftt.core.internal.compatability.WorkspaceMigrationTransformFactory com.ibm.ftt.core.migration.impl(FINER): *** com.ibm.ftt.core.internal.compatability.WorkspaceMigrationTransformFactory.getMigrator: Workspace is already at version 7.5.0.0. No need to migrate.

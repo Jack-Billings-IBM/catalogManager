@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=ibmsys1
+org.eclipse.rse.systemtype.ssh.systemType.enabled=true
+org.eclipse.rse.systemtype.unix.systemType.enabled=false
+useridperkey=mfpe.Local\=ibmsys1;mfpe.10.1.1.2\=ibmuser;

@@ -1,0 +1,3 @@
+com.ibm.ftt.rse.mvs.client.ui.views.MVSFileResourceAdapter\:com.ibm.ftt.rse.mvs.client.ui.views.search.MvsSystemSearchTableView=id_ext;id_transfer;id_hostcp;id_localcp;id_lformat;id_size;id_last;id_create;id_userid;id_lockowner;id_volume;id_recfm;id_lrecl;id_dsorg;id_blksize;id_primary;id_secondary;id_spaceunits;id_extents;id_dsntype;id_mgmtclass;id_dataclass;id_storclass;id_maxgens;id_allocatedblocks;id_usedblocks;id_usedpages;id_useofmaximum;id_propertyGroup;id_overrideSet
+eclipse.preferences.version=1
+org.eclipse.rse.preferences.order.connections=mfpe.10.1.1.2;mfpe.Local

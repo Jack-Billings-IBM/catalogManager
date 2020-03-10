@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MvsRemoteSearchPage">
+		<item value="false" key="includeOfflineVolume"/>
+		<item value="DFH0XCP4" key="fileName"/>
+		<item value="false" key="searchInLogical"/>
+		<item value="MEMBER" key="searchType"/>
+		<item value="false" key="fileNameRegex"/>
+		<item value="TREE" key="searchInMode"/>
+		<item value="false" key="caseSensitive"/>
+		<item value="false" key="showOptions"/>
+		<item value="4" key="dataSize"/>
+		<item value="" key="contentStrings"/>
+		<item value="false" key="contentStringsRegex"/>
+		<item value="1000" key="searchLimit"/>
+		<item value="false" key="visualFormat"/>
+		<item value="false" key="includeMigrated"/>
+	</section>
+	<section name="RemoteSearchPage">
+	</section>
+	<section name="MvsRemoteSearchPage.data1">
+		<item value="false" key="includeOfflineVolume"/>
+		<item value="false" key="searchInLogical"/>
+		<item value="elaxfcoc" key="fileName"/>
+		<item value="" key="filterStrings"/>
+		<item value="false" key="fileNameRegex"/>
+		<item value="8.0.3" key="dataVersion"/>
+		<item value="MEMBER" key="searchType"/>
+		<item value="false" key="caseSensitive"/>
+		<item value="*" key="contentStrings"/>
+		<item value="&lt;selected resources&gt;" key="contexts"/>
+		<item value="*.*/elaxfcoc" key="optimizedFileNames"/>
+		<item value="false" key="contentStringsRegex"/>
+		<item value="1000" key="searchLimit"/>
+		<item value="10.1.1.2" key="connectionName"/>
+		<item value="false" key="visualFormat"/>
+		<item value="*.*/elaxfcoc" key="fileNames"/>
+		<item value="false" key="includeMigrated"/>
+	</section>
+	<section name="MvsRemoteSearchPage.data2">
+		<item value="false" key="includeOfflineVolume"/>
+		<item value="false" key="searchInLogical"/>
+		<item value="user" key="fileName"/>
+		<item value="" key="filterStrings"/>
+		<item value="false" key="fileNameRegex"/>
+		<item value="8.0.3" key="dataVersion"/>
+		<item value="MEMBER" key="searchType"/>
+		<item value="false" key="caseSensitive"/>
+		<item value="*" key="contentStrings"/>
+		<item value="&lt;selected resources&gt;" key="contexts"/>
+		<item value="*.*/user" key="optimizedFileNames"/>
+		<item value="false" key="contentStringsRegex"/>
+		<item value="1000" key="searchLimit"/>
+		<item value="10.1.1.2" key="connectionName"/>
+		<item value="false" key="visualFormat"/>
+		<item value="*.*/user" key="fileNames"/>
+		<item value="false" key="includeMigrated"/>
+	</section>
+	<section name="MvsRemoteSearchPage.data3">
+		<item value="false" key="includeOfflineVolume"/>
+		<item value="false" key="searchInLogical"/>
+		<item value="DFH0XCP4" key="fileName"/>
+		<item value="" key="filterStrings"/>
+		<item value="false" key="fileNameRegex"/>
+		<item value="8.0.3" key="dataVersion"/>
+		<item value="MEMBER" key="searchType"/>
+		<item value="false" key="caseSensitive"/>
+		<item value="*" key="contentStrings"/>
+		<item value="&lt;selected resources&gt;" key="contexts"/>
+		<item value="*.*/DFH0XCP4" key="optimizedFileNames"/>
+		<item value="false" key="contentStringsRegex"/>
+		<item value="1000" key="searchLimit"/>
+		<item value="10.1.1.2" key="connectionName"/>
+		<item value="false" key="visualFormat"/>
+		<item value="*.*/DFH0XCP4" key="fileNames"/>
+		<item value="false" key="includeMigrated"/>
+	</section>
+	<section name="MvsRemoteSearchPage.data0">
+		<item value="false" key="includeOfflineVolume"/>
+		<item value="false" key="searchInLogical"/>
+		<item value="user.z23d.proclib" key="fileName"/>
+		<item value="" key="filterStrings"/>
+		<item value="false" key="fileNameRegex"/>
+		<item value="8.0.3" key="dataVersion"/>
+		<item value="PDS" key="searchType"/>
+		<item value="false" key="caseSensitive"/>
+		<item value="*" key="contentStrings"/>
+		<item value="&lt;selected resources&gt;" key="contexts"/>
+		<item value="user.z23d.proclib" key="optimizedFileNames"/>
+		<item value="false" key="contentStringsRegex"/>
+		<item value="1000" key="searchLimit"/>
+		<item value="10.1.1.2" key="connectionName"/>
+		<item value="false" key="visualFormat"/>
+		<item value="user.z23d.proclib" key="fileNames"/>
+		<item value="false" key="includeMigrated"/>
+	</section>
+</section>

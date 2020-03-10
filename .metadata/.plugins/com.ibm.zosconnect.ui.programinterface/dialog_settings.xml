@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportDSTranMessageMetadataWizard.STORE_IMPORT_DATA_STRUCTURE_ID">
+		<list key="ImportDSTranMessageMetadataWizardPage.STORE_LOCAL_SOURCE_NAMES_ID">
+			<item value="/home/ibmsys1/Copybook"/>
+		</list>
+		<list key="ImportDSTranMessageMetadataWizardPage.STORE_HOST_SOURCE_NAMES_ID">
+			<item value="DFH540.CICS.SDFHSAMP"/>
+		</list>
+	</section>
+</section>

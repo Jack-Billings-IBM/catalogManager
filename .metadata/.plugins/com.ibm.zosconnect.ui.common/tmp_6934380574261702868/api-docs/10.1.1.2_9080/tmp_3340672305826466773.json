@@ -1,0 +1,279 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "catalog"
+  },
+  "host" : "10.1.1.2:9080",
+  "basePath" : "/catalogManager",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/items" : {
+      "get" : {
+        "tags" : [ "catalog" ],
+        "operationId" : "getInquireCatalog",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "query",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/getInquireCatalog_response_200"
+            }
+          }
+        }
+      }
+    },
+    "/items/{itemID}" : {
+      "get" : {
+        "tags" : [ "catalog" ],
+        "operationId" : "getInquireSingle",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "itemID",
+          "in" : "path",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/getInquireSingle_response_200"
+            }
+          }
+        }
+      }
+    },
+    "/orders" : {
+      "post" : {
+        "tags" : [ "catalog" ],
+        "operationId" : "postPlaceOrder",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postPlaceOrder_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postPlaceOrder_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postPlaceOrder_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "getInquireCatalog_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "CA_RETURN_CODE" : {
+              "type" : "integer",
+              "minimum" : 0,
+              "maximum" : 99
+            },
+            "CA_RESPONSE_MESSAGE" : {
+              "type" : "string",
+              "maxLength" : 79
+            },
+            "CA_INQUIRE_REQUEST" : {
+              "type" : "object",
+              "properties" : {
+                "CA_LIST_START_REF" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "CA_LAST_ITEM_REF" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "CA_ITEM_COUNT" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999
+                },
+                "CA_CAT_ITEM" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "properties" : {
+                      "CA_ITEM_REF" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999
+                      },
+                      "CA_DESCRIPTION" : {
+                        "type" : "string",
+                        "maxLength" : 40
+                      },
+                      "CA_DEPARTMENT" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 999
+                      },
+                      "CA_COST" : {
+                        "type" : "string",
+                        "maxLength" : 6
+                      },
+                      "IN_STOCK" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999
+                      },
+                      "ON_ORDER" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 999
+                      }
+                    }
+                  },
+                  "maxItems" : 15,
+                  "minItems" : 15
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postPlaceOrder_request" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "CA_ORDER_REQUEST" : {
+              "type" : "object",
+              "properties" : {
+                "CA_ITEM_REF_NUMBER" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "CA_QUANTITY_REQ" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postPlaceOrder_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "CA_ORDER_REQUEST" : {
+              "type" : "object",
+              "properties" : {
+                "CA_ITEM_REF_NUMBER" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "CA_QUANTITY_REQ" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "getInquireSingle_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "returnCode" : {
+              "type" : "integer",
+              "minimum" : 0,
+              "maximum" : 99
+            },
+            "responseMessage" : {
+              "type" : "string",
+              "maxLength" : 79
+            },
+            "inquireSingle" : {
+              "type" : "object",
+              "properties" : {
+                "item" : {
+                  "type" : "object",
+                  "properties" : {
+                    "itemID" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    },
+                    "description" : {
+                      "type" : "string",
+                      "maxLength" : 40
+                    },
+                    "department" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
+                    },
+                    "cost" : {
+                      "type" : "string",
+                      "maxLength" : 6
+                    },
+                    "stock" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    },
+                    "onOrder" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

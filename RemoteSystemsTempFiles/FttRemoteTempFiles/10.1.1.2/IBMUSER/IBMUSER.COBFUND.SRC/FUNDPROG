@@ -1,0 +1,232 @@
+                                                                        00010000
+      ***************************************************************   00020000
+      * VERSION:     1.0                                                00030000
+      * COPYRIGHT:                                                      00040000
+      *                                                                 00050000
+      *   (C) COPYRIGHT International Business Machines Corp. 1998      00060000
+      *   All Rights Reserved                                           00070000
+      *   Licensed Materials - Property of IBM                          00080000
+      *                                                                 00090000
+      *   US Government Users Restricted Rights - Use, duplication or   00100000
+      *   disclosure restricted by GSA ADP Schedule Contract with IBM Co00110000
+      *                                                                 00120000
+      *                                                                 00130000
+      ***************************************************************   00140000
+      ***************************************************************** 00150000
+      *    CICS COBOL Program to be called for Fund maintenance         00160000
+      *                                                                 00170000
+      ***************************************************************** 00180000
+                                                                        00190000
+       IDENTIFICATION DIVISION.                                         00200000
+       PROGRAM-ID. FUNDPROG.                                            00210000
+       ENVIRONMENT DIVISION.                                            00220000
+       DATA DIVISION.                                                   00230000
+       WORKING-STORAGE SECTION.                                         00240000
+       01  FUND-ID-AREA                     PIC X(8).                   00250000
+       01  WORK-AREAS.                                                  00260000
+           05  RESP-FLD                     PIC S9(8) COMP.             00270000
+           05  RESP-FLD-TWO                 PIC S9(8) COMP.             00280000
+           05  APP-ID                       PIC X(10) VALUE 'FUNDPROG:'.00290000
+           05  CSMT-MSG                     PIC X(121).                 00300000
+           05  DISPLAY-NUMBER               PIC 9999.                   00310000
+                                                                        00320000
+       COPY FUNDFILE.                                                   00330000
+                                                                        00340000
+       LINKAGE SECTION.                                                 00350000
+       COPY FUNDCOPY.                                                   00360001
+                                                                        00450000
+                                                                        00460000
+       PROCEDURE DIVISION.                                              00470000
+           IF EIBCALEN NOT = LENGTH OF DFHCOMMAREA THEN                 00480000
+               MOVE LENGTH OF DFHCOMMAREA TO DISPLAY-NUMBER             00490000
+               STRING APP-ID 'COMMAREA is incorrect Length'             00500000
+                   ', should be ' DISPLAY-NUMBER '.'                    00510000
+                   DELIMITED BY SIZE                                    00520000
+                       INTO CSMT-MSG                                    00530000
+               PERFORM 7200-WRITE-TO-CSMT-QUEUE                         00540000
+               EXEC CICS ABEND ABCODE('FUN1') END-EXEC                  00550000
+           END-IF.                                                      00560000
+                                                                        00570000
+           MOVE '00'   TO RET-CODE.                                     00580000
+                                                                        00590000
+           MOVE DFHCOMMAREA TO CSMT-MSG.                                00600000
+           PERFORM 7200-WRITE-TO-CSMT-QUEUE.                            00610000
+                                                                        00620000
+           EVALUATE REQUEST-TYPE                                        00630000
+               WHEN 'C'      PERFORM 1000-DO-ADD                        00640000
+               WHEN 'c'      PERFORM 1000-DO-ADD                        00650000
+               WHEN 'R'      PERFORM 2000-DO-READ                       00660000
+               WHEN 'r'      PERFORM 2000-DO-READ                       00670000
+               WHEN 'D'      PERFORM 3000-DO-DELETE                     00680000
+               WHEN 'd'      PERFORM 3000-DO-DELETE                     00690000
+               WHEN 'U'      PERFORM 4000-DO-UPDATE                     00700000
+               WHEN 'u'      PERFORM 4000-DO-UPDATE                     00710000
+               WHEN OTHER                                               00720000
+                   MOVE '04' TO RET-CODE                                00730000
+                   MOVE 'ERROR: Invalid fund request received'          00740000
+                        TO RETURN-COMMENT                               00750000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    00760000
+           END-EVALUATE.                                                00770000
+           EXEC CICS ABEND ABCODE('FUN2') END-EXEC.                     00780000
+                                                                        00790000
+                                                                        00800000
+       1000-DO-ADD.                                                     00810000
+           MOVE FUND-ID                TO FUND-FILE-ID.                 00820000
+           MOVE FUND-NAME              TO FUND-FILE-NAME.               00830000
+           MOVE FUND-RATING            TO FUND-FILE-RATING.             00840000
+           MOVE FUND-PRICE             TO FUND-FILE-PRICE.              00850000
+                                                                        00860000
+           EXEC CICS WRITE FILE('FUND')                                 00870000
+                  RIDFLD(FUND-FILE-ID)                                  00880000
+                  FROM(FUND-FILE-LAYOUT)                                00890000
+                  RESP(RESP-FLD)                                        00900000
+                  END-EXEC.                                             00910000
+                                                                        00920000
+           EVALUATE RESP-FLD                                            00930000
+               WHEN DFHRESP(NORMAL)                                     00940000
+                   MOVE '00' TO RET-CODE                                00950000
+                   MOVE 'Fund added'                                    00960000
+                          TO RETURN-COMMENT                             00970000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    00980000
+               WHEN DFHRESP(DUPREC)                                     00990000
+                   MOVE '04' TO RET-CODE                                01000000
+                   MOVE 'Fund already exists'                           01010000
+                        TO RETURN-COMMENT                               01020000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01030000
+               WHEN OTHER                                               01040000
+                   MOVE '04' TO RET-CODE                                01050000
+                   MOVE 'Problem adding fund, see CICS message log'     01060000
+                           TO RETURN-COMMENT                            01070000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01080000
+           END-EVALUATE.                                                01090000
+                                                                        01100000
+                                                                        01110000
+       2000-DO-READ.                                                    01120000
+           EXEC CICS READ FILE('FUND')                                  01130000
+                  RIDFLD(FUND-ID)                                       01140000
+                  INTO(FUND-FILE-LAYOUT)                                01150000
+                  RESP(RESP-FLD)                                        01160000
+                  END-EXEC.                                             01170000
+           EVALUATE RESP-FLD                                            01180000
+               WHEN DFHRESP(NORMAL)                                     01190000
+                   MOVE FUND-FILE-NAME    TO FUND-NAME                  01200000
+                   MOVE FUND-FILE-RATING  TO FUND-RATING                01210000
+                   MOVE FUND-FILE-PRICE   TO FUND-PRICE                 01220000
+                   MOVE '00' TO RET-CODE                                01230000
+                   MOVE 'Fund information retrieved'                    01240000
+                         TO RETURN-COMMENT                              01250000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01260000
+               WHEN DFHRESP(NOTFND)                                     01270000
+                   MOVE '04' TO RET-CODE                                01280000
+                   MOVE 'Fund not found'                                01290000
+                         TO RETURN-COMMENT                              01300000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01310000
+               WHEN OTHER                                               01320000
+                   MOVE '04' TO RET-CODE                                01330000
+                   MOVE 'Error reading error code file'                 01340000
+                           TO RETURN-COMMENT                            01350000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01360000
+           END-EVALUATE.                                                01370000
+                                                                        01380000
+                                                                        01390000
+       3000-DO-DELETE.                                                  01400000
+           EXEC CICS READ FILE('FUND')                                  01410000
+                  RIDFLD(FUND-ID)                                       01420000
+                  INTO(FUND-FILE-LAYOUT)                                01430000
+                  RESP(RESP-FLD)                                        01440000
+                  END-EXEC.                                             01450000
+           EVALUATE RESP-FLD                                            01460000
+               WHEN DFHRESP(NORMAL)                                     01470000
+                   MOVE FUND-FILE-NAME    TO FUND-NAME                  01480000
+                   MOVE FUND-FILE-RATING  TO FUND-RATING                01490000
+                   MOVE FUND-FILE-PRICE   TO FUND-PRICE                 01500000
+                   MOVE '00' TO RET-CODE                                01510000
+               WHEN DFHRESP(NOTFND)                                     01520000
+                   MOVE '04' TO RET-CODE                                01530000
+                   MOVE 'Fund not found'                                01540000
+                         TO RETURN-COMMENT                              01550000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01560000
+               WHEN OTHER                                               01570000
+                   MOVE '04' TO RET-CODE                                01580000
+                   MOVE 'Error reading error code file'                 01590000
+                           TO RETURN-COMMENT                            01600000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01610000
+           END-EVALUATE.                                                01620000
+                                                                        01630000
+           EXEC CICS DELETE FILE('FUND')                                01640000
+                  RIDFLD(FUND-ID)                                       01650000
+                  RESP(RESP-FLD)                                        01660000
+                  END-EXEC.                                             01670000
+           EVALUATE RESP-FLD                                            01680000
+               WHEN DFHRESP(NORMAL)                                     01690000
+                   MOVE '00' TO RET-CODE                                01700000
+                   MOVE 'Fund deleted'                                  01710000
+                         TO RETURN-COMMENT                              01720000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01730000
+               WHEN DFHRESP(NOTFND)                                     01740000
+                   MOVE '04' TO RET-CODE                                01750000
+                   MOVE 'Fund does not exist'                           01760000
+                            TO RETURN-COMMENT                           01770000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01780000
+               WHEN OTHER                                               01790000
+                   MOVE '04' TO RET-CODE                                01800000
+                   MOVE 'Problem deleting fund, see CICS messages'      01810000
+                       TO RETURN-COMMENT                                01820000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    01830000
+           END-EVALUATE.                                                01840000
+                                                                        01850000
+                                                                        01860000
+       4000-DO-UPDATE.                                                  01870000
+           EXEC CICS READ FILE('FUND')                                  01880000
+                  RIDFLD(FUND-ID)                                       01890000
+                  INTO(FUND-FILE-LAYOUT)                                01900000
+                  RESP(RESP-FLD)                                        01910000
+                  UPDATE                                                01920000
+                  END-EXEC.                                             01930000
+           EVALUATE RESP-FLD                                            01940000
+               WHEN DFHRESP(NORMAL)                                     01950000
+                   MOVE FUND-ID        TO FUND-FILE-ID                  01960000
+                   MOVE FUND-NAME      TO FUND-FILE-NAME                01970000
+                   MOVE FUND-RATING    TO FUND-FILE-RATING              01980000
+                   MOVE FUND-PRICE     TO FUND-FILE-PRICE               01990000
+                   EXEC CICS REWRITE FILE('FUND')                       02000000
+                       FROM(FUND-FILE-LAYOUT)                           02010000
+                       RESP(RESP-FLD-TWO)                               02020000
+                       END-EXEC                                         02030000
+                   EVALUATE(RESP-FLD-TWO)                               02040000
+                       WHEN DFHRESP(NORMAL)                             02050000
+                           MOVE '00' TO RET-CODE                        02060000
+                           MOVE 'Fund updated'                          02070000
+                               TO RETURN-COMMENT                        02080000
+                           PERFORM 7100-RETURN-ERROR-MESSAGE            02090000
+                       WHEN OTHER                                       02100000
+                           MOVE '04' TO RET-CODE                        02110000
+                           MOVE 'Fund not updated, check CICS messages' 02120000
+                               TO RETURN-COMMENT                        02130000
+                           PERFORM 7100-RETURN-ERROR-MESSAGE            02140000
+                   END-EVALUATE                                         02150000
+               WHEN OTHER                                               02160000
+                   MOVE '04' TO RET-CODE                                02170000
+                   MOVE 'Can not read indicated fund'                   02180000
+                       TO RETURN-COMMENT                                02190000
+                   PERFORM 7100-RETURN-ERROR-MESSAGE                    02200000
+           END-EVALUATE.                                                02210000
+                                                                        02220000
+                                                                        02230000
+       7100-RETURN-ERROR-MESSAGE.                                       02240000
+           STRING APP-ID RETURN-COMMENT                                 02250000
+               DELIMITED BY SIZE                                        02260000
+                  INTO CSMT-MSG                                         02270000
+           PERFORM 7200-WRITE-TO-CSMT-QUEUE                             02280000
+           PERFORM 9000-RETURN-TO-CICS.                                 02290000
+                                                                        02300000
+                                                                        02310000
+       7200-WRITE-TO-CSMT-QUEUE.                                        02320000
+           EXEC CICS WRITEQ TD QUEUE('CSMT')                            02330000
+                          FROM(CSMT-MSG)                                02340000
+                          END-EXEC.                                     02350000
+           MOVE SPACE TO CSMT-MSG.                                      02360000
+                                                                        02370000
+                                                                        02380000
+       9000-RETURN-TO-CICS.                                             02390000
+           EXEC CICS RETURN END-EXEC.                                   02400000
