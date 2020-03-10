@@ -1,6 +1,9 @@
 # 
-#Tue Mar 10 16:07:52 CDT 2020
-GitRepositoriesView.GitDirectories.relative=
+#Tue Mar 10 16:14:25 CDT 2020
+GitRepositoriesView.GitDirectories.relative=.git\:
 # 
-#Tue Mar 10 16:07:52 CDT 2020
-GitRepositoriesView.GitDirectories=
+#Tue Mar 10 16:14:25 CDT 2020
+GitRepositoriesView.GitDirectories=/home/ibmsys1/workspace/.git\:
+# 
+#Tue Mar 10 16:14:25 CDT 2020
+RepositorySearchDialogSearchPath=/home/ibmsys1/workspace
