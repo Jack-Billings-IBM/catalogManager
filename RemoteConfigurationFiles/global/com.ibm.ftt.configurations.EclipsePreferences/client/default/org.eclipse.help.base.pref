@@ -1,21 +1,21 @@
 # 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpPort=80,80,80
 # 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpName=IBM Data Studio,Help for IBM Developer for z/OS,Rational solution for Collaborative Lifecycle Management
 # 
-#Thu Mar 05 17:51:49 CST 2020
-remoteHelpOn=true
-# 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpPath=/support/knowledgecenter/SS62YD_4.1.1,/support/knowledgecenter/SSQ2R2_14.2.0,/support/knowledgecenter/SSYMRC_6.0.3
 # 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
+remoteHelpOn=true
+# 
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpHost=www.ibm.com,www.ibm.com,www.ibm.com
 # 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpProtocol=http,http,http
 # 
-#Thu Mar 05 17:51:49 CST 2020
+#Tue Mar 10 17:29:31 CDT 2020
 remoteHelpICEnabled=false,false,false

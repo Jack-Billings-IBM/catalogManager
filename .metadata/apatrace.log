@@ -178,3 +178,6 @@
 2020-03-10 12:35:23,988 [Worker-14] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer ADFz plug-in Started *****
 2020-03-10 12:35:23,989 [Worker-14] INFO  CorePlugin:? - Version : 14.2.0.0
 2020-03-10 12:35:23,990 [Worker-14] INFO  CorePlugin:? - Locale :  en_US
+2020-03-10 17:29:15,419 [Framework stop] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer Stopped *****
+2020-03-10 17:29:15,520 [Framework stop] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer ADFz plug-in Stopped *****
+2020-03-10 17:29:15,525 [Framework stop] INFO  CorePlugin:? - ***** BankNet Core Plug-in Stopped *****

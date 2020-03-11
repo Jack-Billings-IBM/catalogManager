@@ -13642,3 +13642,395 @@ java.io.FileNotFoundException: /home/ibmsys1/workspace/InquireSingle/inquireSing
 2020/03/10 15:58:03.705 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
 2020/03/10 15:58:03.744 CDT [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d5af3074} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@42029ee4} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
 2020/03/10 15:58:03.752 CDT [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4a259338} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@86c2c5ed} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2020/03/10 15:58:03.838 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:03.838 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:03.838 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:03.838 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:03.844 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, FormEditPart( com.ibm.msl.mapping.ui.utils.common.Form@6e4bf25a )]
+2020/03/10 15:58:19.259 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:19.259 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:19.259 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:19.259 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:19.261 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, CA_REQUEST_ID : string]
+2020/03/10 15:58:20.590 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:20.590 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:20.590 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:20.590 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:20.595 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, FormEditPart( com.ibm.msl.mapping.ui.utils.common.Form@6e4bf25a )]
+2020/03/10 15:58:20.632 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:20.632 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:20.632 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:20.632 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:20.636 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, TransformEditPart( com.ibm.msl.mapping.internal.ui.model.TransformType@b2c59311 )]
+2020/03/10 15:58:20.701 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:20.701 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:21.293 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:21.293 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:21.293 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:21.293 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:21.297 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, CA_ORDER_REQUEST : ]
+2020/03/10 15:58:21.329 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:21.329 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:22.601 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:22.601 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:22.601 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:22.601 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:22.606 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, FormEditPart( com.ibm.msl.mapping.ui.utils.common.Form@6e4bf25a )]
+2020/03/10 15:58:22.629 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:22.629 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:22.629 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:22.629 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:22.635 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.msl.mapping.internal.ui.editor.MappingEditor@9968a339, TransformEditPart( com.ibm.msl.mapping.internal.ui.model.TransformType@ae55bc40 )]
+2020/03/10 15:58:22.760 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:22.760 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:31.925 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:31.926 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:31.926 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:31.926 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:32.000 CDT [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 15:58:32.000 CDT [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.002 CDT [1] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 15:58:32.002 CDT [1] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 15:58:32.253 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:32.253 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:32.253 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:32.253 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:49.395 CDT [1] > com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter()
+2020/03/10 15:58:49.395 CDT [1] < com.ibm.cics.cda.viz.adapters.EditPartToModelFactory.getAdapter() [null]
+2020/03/10 15:58:52.669 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.zosconnect.ui.nav.ZosConnectServerNav@51a7e650, catalog]
+2020/03/10 15:58:53.348 CDT [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2020/03/10 15:58:53.348 CDT [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2020/03/10 15:59:29.839 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, com.ibm.zosconnect.ui.nav.ZosConnectServerNav@51a7e650, catalog]
+2020/03/10 16:06:02.741 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireCatalog/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:02.742 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:02.743 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireCatalog/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:02.743 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:03.406 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireCatalog/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:03.406 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:03.467 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, L/inquireCatalog/service.properties]
+2020/03/10 16:06:03.467 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:03.467 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:04.016 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireCatalog/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:04.016 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:04.016 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireCatalog/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:04.016 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:04.098 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:04.098 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:36.327 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:36.327 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:36.483 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, P/inquireSingle]
+2020/03/10 16:06:36.483 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:36.483 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:40.666 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:40.666 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:40.690 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:40.690 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:40.694 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, L/inquireSingle/service.properties]
+2020/03/10 16:06:40.694 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:40.694 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:41.561 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.561 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.561 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.564 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.598 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.598 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.598 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.598 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.602 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, L/inquireSingle/service.properties]
+2020/03/10 16:06:41.602 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:41.602 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:41.677 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.677 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.678 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.678 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.695 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.695 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.695 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.695 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.698 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, L/inquireSingle/service.properties]
+2020/03/10 16:06:41.698 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:41.698 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:06:41.791 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.791 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.791 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.791 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:41.820 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:06:41.820 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:06:53.819 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.internal.views.markers.ProblemsView@f40076df, org.eclipse.ui.internal.views.markers.MarkerCategory@d25b2d2a]
+2020/03/10 16:07:04.336 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:04.336 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:04.477 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:04.477 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:41.601 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[REPO, Repository[/home/ibmsys1/git/catalogManager/.git]]]
+2020/03/10 16:07:41.604 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:41.604 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:53.332 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:53.332 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:07:56.336 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.internal.views.markers.ProblemsView@f40076df, org.eclipse.ui.internal.views.markers.MarkerCategory@d25b2d2a]
+2020/03/10 16:08:01.650 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:08:01.650 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:08:01.650 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:08:01.650 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:08:01.796 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:08:01.796 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:08:01.813 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, L/inquireSingle/service.properties]
+2020/03/10 16:08:01.813 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:08:01.813 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:08:01.924 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:08:01.924 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:08:01.925 CDT [1] > com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [L/inquireSingle/service.properties, interface com.ibm.cph.common.model.damodel.IModelElement]
+2020/03/10 16:08:01.925 CDT [1] < com.ibm.cics.cda.ui.ProjectModelAdapterFactory.getAdapter() [null]
+2020/03/10 16:08:01.955 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:08:01.955 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:08:10.679 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.ui.navigator.resources.ProjectExplorer@c0eb75f1, P/catalog]
+2020/03/10 16:08:10.680 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:08:10.680 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:14:02.115 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:14:02.115 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:14:25.743 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:25.743 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:26.271 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.272 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.273 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.273 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.273 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.273 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.273 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.273 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.275 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.275 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.275 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.278 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.278 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.278 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.772 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:26.772 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.929 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.929 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.929 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.929 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.929 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.929 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.930 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:26.930 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:26.930 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.110 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.110 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.117 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.117 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.204 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.204 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.222 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.222 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.222 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.336 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.336 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.336 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.336 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.336 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.336 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.453 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.453 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.455 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.455 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.467 CDT [372] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.467 CDT [372] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.470 CDT [372] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:27.470 CDT [372] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:27.844 CDT [380] > com.ibm.cics.zos.ui.builder.ProjectBuilder.build(AUTO)()
+2020/03/10 16:14:27.975 CDT [380] < com.ibm.cics.zos.ui.builder.ProjectBuilder.build()
+2020/03/10 16:14:32.045 CDT [382] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:32.045 CDT [382] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.closeOfflineEditors() [F/inquireCatalog/bin]
+2020/03/10 16:14:32.045 CDT [382] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterOfflineEditors() [org.eclipse.ui.internal.EditorReference@4f8f4075, org.eclipse.ui.internal.EditorReference@e1dd90d1, org.eclipse.ui.internal.EditorReference@f03363e0, org.eclipse.ui.internal.EditorReference@ce0bdeda]
+2020/03/10 16:14:32.045 CDT [382] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterOfflineEditors() [[]]
+2020/03/10 16:14:32.045 CDT [382] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterEditors() [org.eclipse.ui.IEditorReference@ff7d0339[0], F/inquireCatalog/bin]
+2020/03/10 16:14:32.045 CDT [382] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterEditors() [[]]
+2020/03/10 16:14:32.045 CDT [382] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.closeOfflineEditors() [F/inquireCatalog/bin]
+2020/03/10 16:14:32.045 CDT [382] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:32.092 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.092 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.092 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.092 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.092 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.092 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.092 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.092 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.093 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.093 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.093 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.093 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.093 CDT [382] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.093 CDT [382] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.517 CDT [380] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:32.517 CDT [380] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.559 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.559 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.559 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.559 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.559 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.559 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.560 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:32.560 CDT [380] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:32.560 CDT [380] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.371 CDT [383] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:34.371 CDT [383] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.closeOfflineEditors() [F/placeOrder/bin]
+2020/03/10 16:14:34.371 CDT [383] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterOfflineEditors() [org.eclipse.ui.internal.EditorReference@4f8f4075, org.eclipse.ui.internal.EditorReference@e1dd90d1, org.eclipse.ui.internal.EditorReference@f03363e0, org.eclipse.ui.internal.EditorReference@ce0bdeda]
+2020/03/10 16:14:34.371 CDT [383] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterOfflineEditors() [[]]
+2020/03/10 16:14:34.371 CDT [383] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterEditors() [org.eclipse.ui.IEditorReference@d5d039d3[0], F/placeOrder/bin]
+2020/03/10 16:14:34.371 CDT [383] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.filterEditors() [[]]
+2020/03/10 16:14:34.371 CDT [383] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.closeOfflineEditors() [F/placeOrder/bin]
+2020/03/10 16:14:34.371 CDT [383] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.397 CDT [383] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.397 CDT [383] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.568 CDT [381] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:34.568 CDT [381] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:14:34.569 CDT [381] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@38408a6]]
+2020/03/10 16:14:34.569 CDT [381] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2020/03/10 16:18:31.288 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:18:31.288 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:18:31.595 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:18:31.595 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:18:31.595 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:18:51.146 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:18:51.379 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:18:53.822 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:18:53.881 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:19:04.759 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.bak_0.log]]
+2020/03/10 16:19:04.842 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.bak_0.log]]
+2020/03/10 16:19:29.932 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.plugins/org.eclipse.core.resources/.projects/Configuration Manager/.markers.snap]]
+2020/03/10 16:19:29.968 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.plugins/org.eclipse.core.resources/.projects/Configuration Manager/.markers.snap]]
+2020/03/10 16:19:50.763 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:19:51.043 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:20:03.405 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.log]]
+2020/03/10 16:20:03.788 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.log]]
+2020/03/10 16:20:26.676 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi]]
+2020/03/10 16:20:26.696 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi]]
+2020/03/10 16:20:41.474 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:20:41.474 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:20:41.474 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:20:56.973 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[WORKINGDIR, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:20:56.973 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:20:56.973 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:21:03.021 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/project]]
+2020/03/10 16:21:03.021 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:21:03.021 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:21:03.170 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/project]]
+2020/03/10 16:21:03.170 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:21:03.170 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:19.644 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/project]]
+2020/03/10 16:26:19.644 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:19.644 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:19.779 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/Properties]]
+2020/03/10 16:26:19.779 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:19.779 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:41.327 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/project]]
+2020/03/10 16:26:41.327 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:41.327 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:42.193 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.repository.RepositoriesView@ecf1421b, RepositoryNode[FOLDER, /home/ibmsys1/workspace/placeOrder]]
+2020/03/10 16:26:42.193 CDT [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:42.193 CDT [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.bundle.context]
+2020/03/10 16:26:45.202 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi]]
+2020/03/10 16:26:46.625 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:26:46.668 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:26:46.712 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:26:49.501 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:26:49.576 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:27:35.675 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.bak_1.log]]
+2020/03/10 16:27:35.706 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.bak_1.log]]
+2020/03/10 16:27:40.285 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.bak_1.log]]
+2020/03/10 16:27:45.774 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MISSING Properties/.dirty]]
+2020/03/10 16:27:45.810 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MISSING Properties/.dirty]]
+2020/03/10 16:27:45.875 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MISSING Properties/.dirty]]
+2020/03/10 16:27:45.997 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:27:46.063 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, RepositoryNode[REPO, Repository[/home/ibmsys1/workspace/.git]]]
+2020/03/10 16:27:55.232 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.log]]
+2020/03/10 16:27:55.285 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.log]]
+2020/03/10 16:28:00.310 CDT [1] - com.ibm.cics.core.ui.LegacyNavigationService.selectionChanged() [com.ibm.cics.core.ui.LegacyNavigationService$1@c390e067, org.eclipse.egit.ui.internal.staging.StagingView@4af282bf, StagingEntry[MODIFIED .metadata/.log]]
+2020/03/10 17:18:36.248 CDT [1] RSEG1057 com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()

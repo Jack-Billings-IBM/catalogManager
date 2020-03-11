@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ImportDSTranMessageMetadataWizard.STORE_IMPORT_DATA_STRUCTURE_ID">
+		<item value="DFH540.CICS.SDFHSAMP(DFH0XCP1)" key="ImportDSTranMessageMetadataWizard.STORE_LAST_FOLDER_ID"/>
+		<item value="false" key="ImportDSTranMessageMetadataWizard.STORE_LAST_SOURCE_TYPE_ID"/>
+		<item value="COBOL data structures only" key="ImportDSTranMessageMetadataWizard.STORE_LAST_SOURCE_LANGUAGE_ID"/>
 		<list key="ImportDSTranMessageMetadataWizardPage.STORE_LOCAL_SOURCE_NAMES_ID">
 			<item value="/home/ibmsys1/Copybook"/>
 		</list>

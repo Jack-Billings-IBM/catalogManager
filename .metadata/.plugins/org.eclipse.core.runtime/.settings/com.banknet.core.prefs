@@ -144,3 +144,4 @@ eclipse.preferences.version=1
 filterJobname=*
 filterOwnedby=*
 saveReportPath=c\:\\
+stcRefresh=true
