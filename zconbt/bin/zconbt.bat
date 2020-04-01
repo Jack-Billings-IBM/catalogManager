@@ -1,6 +1,6 @@
 @echo off
 @REM
-@REM ${fmid.base} - ${zconn.full.name}
+@REM HZC3000 - z/OS Connect Enterprise Edition 3.0.31
 @REM
 @REM <copyright
 @REM notice="rm-source-program"
@@ -26,5 +26,6 @@ set CURRENT_DIR=!CURRENT_DIR:"=!
 set INVOKED="%~0"
 set INVOKED=!INVOKED:"=!
 set PARAMS_QUOTED=%*
+if "zccz"=="zc%JAVA_OPTIONS%cz" set JAVA_OPTIONS=
 
-java -classpath "%CURRENT_DIR%\..\lib\*;%CURRENT_DIR%\..\plugins\*" com.ibm.zosconnect.buildtoolkit.cli.BuildToolkit %PARAMS_QUOTED%
+java %JAVA_OPTIONS% -classpath "%CURRENT_DIR%\..\lib\*;%CURRENT_DIR%\..\plugins\*" com.ibm.zosconnect.buildtoolkit.cli.BuildToolkit %PARAMS_QUOTED%
