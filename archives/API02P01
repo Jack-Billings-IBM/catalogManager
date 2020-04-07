@@ -1,0 +1,84 @@
+      * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      * This file contains the generated language structure(s) for
+      *  response JSON schema 'postPlaceOrder_200_response.json'.
+      * This structure was generated using 'DFHJS2LS' at mapping level
+      *  '4.3'.
+      * 
+      *  
+      *      06 RespBody.
+      * 
+      *  
+      * JSON schema keyword 'RespBody->DFH0XCP1' is optional. The
+      *  number of instances present is indicated in field
+      *  'DFH0XCP12-num'.
+      * There should be at least '0' instance(s).
+      * There should be at most '1' instance(s).
+      *        09 DFH0XCP12-num                 PIC S9(9) COMP-5 SYNC.
+      * 
+      *  
+      *        09 DFH0XCP1.
+      * 
+      *  
+      * JSON schema keyword 'RespBody->DFH0XCP1->CA_RETURN_CODE' is
+      *  optional. The number of instances present is indicated in
+      *  field 'CA-RETURN-CODE-num'.
+      * There should be at least '0' instance(s).
+      * There should be at most '1' instance(s).
+      *          12 CA-RETURN-CODE-num            PIC S9(9) COMP-5
+      *  SYNC.
+      * 
+      *  
+      * Comments for field 'CA-RETURN-CODE':
+      * This field represents the value of JSON schema keyword
+      *  'RespBody->DFH0XCP1->CA_RETURN_CODE'.
+      * JSON schema type: 'integer'.
+      * JSON schema keyword 'maximum' value: '99'.
+      * JSON schema keyword 'minimum' value: '0'.
+      *          12 CA-RETURN-CODE                PIC 9(2) DISPLAY.
+      * 
+      *  
+      * JSON schema keyword 'RespBody->DFH0XCP1->CA_RESPONSE_MESSAGE'
+      *  is optional. The number of instances present is indicated in
+      *  field 'CA-RESPONSE-MESSAGE-num'.
+      * There should be at least '0' instance(s).
+      * There should be at most '1' instance(s).
+      *          12 CA-RESPONSE-MESSAGE-num       PIC S9(9) COMP-5
+      *  SYNC.
+      * 
+      *  
+      *          12 CA-RESPONSE-MESSAGE.
+      * 
+      * Comments for field 'CA-RESPONSE-MESSAGE2':
+      * This field represents the value of JSON schema keyword
+      *  'RespBody->DFH0XCP1->CA_RESPONSE_MESSAGE'.
+      * JSON schema type: 'string'.
+      * JSON schema keyword 'minLength' value: '0'.
+      * JSON schema keyword 'maxLength' value: '79'.
+      * This field contains a varying length array of characters or
+      *  binary data.
+      *            15 CA-RESPONSE-MESSAGE2-length   PIC S9999 COMP-5
+      *  SYNC.
+      *            15 CA-RESPONSE-MESSAGE2          PIC X(79).
+      * 
+      *  
+      * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+             06 RespBody.
+ 
+               09 DFH0XCP12-num                 PIC S9(9) COMP-5 SYNC.
+ 
+               09 DFH0XCP1.
+ 
+                 12 CA-RETURN-CODE-num            PIC S9(9) COMP-5
+            SYNC.
+ 
+                 12 CA-RETURN-CODE                PIC 9(2) DISPLAY.
+ 
+                 12 CA-RESPONSE-MESSAGE-num       PIC S9(9) COMP-5
+            SYNC.
+ 
+                 12 CA-RESPONSE-MESSAGE.
+                   15 CA-RESPONSE-MESSAGE2-length   PIC S9999 COMP-5
+            SYNC.
+                   15 CA-RESPONSE-MESSAGE2          PIC X(79).
+ 

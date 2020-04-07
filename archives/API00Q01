@@ -1,0 +1,23 @@
+      * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      * This file contains the generated language structure(s) for
+      *  request JSON schema 'getInquireCatalog_request.json'.
+      * This structure was generated using 'DFHJS2LS' at mapping level
+      *  '4.3'.
+      * 
+      *  
+      *      06 ReqQueryParameters.
+      * 
+      * Comments for field 'startItemID':
+      * This field represents the value of JSON schema keyword
+      *  'ReqQueryParameters->startItemID'.
+      * JSON schema type: 'integer'.
+      * JSON schema keyword 'maximum' value: '9999'.
+      * JSON schema keyword 'minimum' value: '0'.
+      *        09 startItemID                   PIC 9(4) DISPLAY.
+      * 
+      *  
+      * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+             06 ReqQueryParameters.
+               09 startItemID                   PIC 9(4) DISPLAY.
+ 
