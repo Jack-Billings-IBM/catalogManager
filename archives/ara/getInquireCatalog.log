@@ -1,10 +1,10 @@
 Log file from: DFHJS2LS
 XSDBind file: null
 Mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
-Created: 09 Apr 2020 15:43
+Created: 09 Apr 2020 19:44
 Release: 
 Build-Level: COM2-201910171409
-Platform: Linux version 3.10.0-1062.18.1.el7.x86_64  (architecture amd64)
+Platform: Linux version 3.10.0-1062.18.1.el7.x86_64  (architecture i386)
 Java version: null
 Target Platform: null
 --------------------------
@@ -38,8 +38,8 @@ DFHPI9609I Parameter "HTTPPROXY-PASSWORD" has value "null".
 DFHPI9609I Parameter "INLINE-MAXOCCURS-LIMIT" has value "32767".
 DFHPI9609I Parameter "JSON-SCHEMA" has value "null".
 DFHPI9609I Parameter "JSON-SCHEMA-CODEPAGE" has value "null".
-DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/1290341411655002873/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
-DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/1290341411655002873/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
+DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/6064423303674380291/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
+DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/6064423303674380291/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
 DFHPI9609I Parameter "JSON-SCHEMA-RESTFUL" has value "null".
 DFHPI9609I Parameter "JSONTRANSFRM" has value "null".
 DFHPI9609I Parameter "LANG" has value "COBOL".
@@ -79,7 +79,7 @@ DFHPI9609I Parameter "VENDOR-CONVERTER-NAME" has value "null".
 DFHPI9609I Parameter "VENDOR-APP-INTERFACE-LENGTH" has value "null".
 DFHPI9609I Parameter "VENDOR-META-DATA" has value "null".
 DFHPI9609I Parameter "WSADDR-EPR-ANY" has value "false".
-DFHPI9609I Parameter "WSBIND" has value "/tmp/1290341411655002873/ws-binds/getInquireCatalog.wsbind".
+DFHPI9609I Parameter "WSBIND" has value "/tmp/6064423303674380291/ws-binds/getInquireCatalog.wsbind".
 DFHPI9609I Parameter "WSDL" has value "null".
 DFHPI9609I Parameter "WSDLCP" has value "null".
 DFHPI9609I Parameter "WSDL-NAMESPACE" has value "null".
@@ -112,7 +112,7 @@ DFHPI9609I Parameter "INTEGER-AS-PIC9" has value "null".
 DFHPI9609I Parameter "NO-ARRAY-NAME-INDEXING" has value "null".
 DFHPI9609I Parameter "HYPHENS-AS-UNDERSCORES" has value "null".
 
-Processing JSON Schema file: /tmp/1290341411655002873/services/getInquireCatalog/schemas/getInquireCatalog_request.json
+Processing JSON Schema file: /tmp/6064423303674380291/services/getInquireCatalog/schemas/getInquireCatalog_request.json
 ----------------------------
 
 {
@@ -316,7 +316,7 @@ Processing JSON Schema file: /tmp/1290341411655002873/services/getInquireCatalog
 }
 
 
-Processing JSON Schema file: /tmp/1290341411655002873/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
+Processing JSON Schema file: /tmp/6064423303674380291/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
 ----------------------------
 
 {
@@ -634,7 +634,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS7099054944232801069.wsdl
+  URI: /tmp/DFHLS2JS9220780601629878623.wsdl
 
 
 Creating ICM: WSDLTemplateOperationRequest
@@ -646,9 +646,9 @@ Creating ICM: WSDLTemplateOperationRequest
  message type: Request Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS7099054944232801069.wsdl
-<!-- loading: file:/tmp/DFHLS2JS7099054944232801069.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS7099054944232801069.wsdl >
+Main input is from: file:/tmp/DFHLS2JS9220780601629878623.wsdl
+<!-- loading: file:/tmp/DFHLS2JS9220780601629878623.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS9220780601629878623.wsdl >
 XML file
 --------
 
@@ -851,16 +851,16 @@ XML file
 
 
 
- Creating a new level with initial offset 0 and identity 729218894
+ Creating a new level with initial offset 0 and identity 22763040
 Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
    in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
-   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@53f6fd09 (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/RequestMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
+   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@9c0d96 (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/RequestMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
    in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
  Particle must appear 1 to 1 times.
  is structural: true
  is mixed: false
  suppress padding message: true
- Creating a new level with initial offset 0 and identity 369671357
+ Creating a new level with initial offset 0 and identity 24898104
  Processing element: http://www.example.org/WSDLTemplate/RequestMessageData#DFHWrapper type namespace: http://www.example.org/WSDLTemplate/
   Processing complex type: http://www.example.org/WSDLTemplate/RequestMessageData#DFHWrapper_._type
   Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -881,7 +881,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageD
     is mixed: false
     suppress padding message: true
     is optional array: false
-    Creating a new level with initial offset 0 and identity 701119748
+    Creating a new level with initial offset 0 and identity 30047757
     Processing element: #ReqQueryParameters type namespace: http://www.example.org/WSDLTemplate/RequestMessageData
      Processing complex type: http://www.example.org/WSDLTemplate/RequestMessageData#ReqQueryParameters_._type
      Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -913,12 +913,12 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageD
        facet: maximum value: 9999
        facet: minimum value: 0
        facet: pattern value: [[\-+]?[0-9]+]
-        Adding entry for 'startItemID' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '701119748'.
+        Adding entry for 'startItemID' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '30047757'.
        is aligned: true
        are widechars: false
        is UTF-16BE: false
-     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '369671357'.
-  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '729218894'.
+     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '24898104'.
+  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '22763040'.
 Finished adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
 
 
@@ -1280,16 +1280,16 @@ Creating ICM: WSDLTemplateOperationResponse
  message type: Response Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
- Creating a new level with initial offset 0 and identity 1070157899
+ Creating a new level with initial offset 0 and identity 15871901
 Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessageData}DFHWrapper
    in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
-   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@6d025197 (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/ResponseMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
+   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@11848cc (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/ResponseMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
    in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
  Particle must appear 1 to 1 times.
  is structural: true
  is mixed: false
  suppress padding message: true
- Creating a new level with initial offset 0 and identity 41765385
+ Creating a new level with initial offset 0 and identity 31082713
  Processing element: http://www.example.org/WSDLTemplate/ResponseMessageData#DFHWrapper type namespace: http://www.example.org/WSDLTemplate/
   Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#DFHWrapper_._type
   Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -1310,7 +1310,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
     is mixed: false
     suppress padding message: true
     is optional array: false
-    Creating a new level with initial offset 0 and identity 192694377
+    Creating a new level with initial offset 0 and identity 23994979
     Processing element: #RespBody type namespace: http://www.example.org/WSDLTemplate/ResponseMessageData
      Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#RespBody_._type
      Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -1331,8 +1331,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
        is mixed: false
        suppress padding message: true
        is optional array: false
-        Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '192694377'.
-       Creating a new level with initial offset 4 and identity 474488818
+        Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '23994979'.
+       Creating a new level with initial offset 4 and identity 24921914
          in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
          in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -1341,7 +1341,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
        is mixed: false
        suppress padding message: true
        is optional array: false
-       Creating a new level with initial offset 4 and identity 1917025677
+       Creating a new level with initial offset 4 and identity 4970570
        Processing element: #DFH0XCP1 type namespace: null
         Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#DFH0XCP1_._type
         Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -1362,8 +1362,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1917025677'.
-          Creating a new level with initial offset 8 and identity 108449608
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '4970570'.
+          Creating a new level with initial offset 8 and identity 6469052
           Processing element: #CA_RETURN_CODE type namespace: null
           Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_RETURN_CODE_._type typeName: CA_RETURN_CODE
           Found simple type derived from: unsignedShort
@@ -1375,11 +1375,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           facet: maximum value: 99
           facet: minimum value: 0
           facet: pattern value: [[\-+]?[0-9]+]
-           Adding entry for 'CA_RETURN_CODE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '108449608'.
+           Adding entry for 'CA_RETURN_CODE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '6469052'.
           is aligned: true
           are widechars: false
           is UTF-16BE: false
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '1917025677'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '4970570'.
 
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1389,8 +1389,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '1917025677'.
-          Creating a new level with initial offset 16 and identity 861623840
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '4970570'.
+          Creating a new level with initial offset 16 and identity 22510052
           Processing element: #CA_RESPONSE_MESSAGE type namespace: null
           Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_RESPONSE_MESSAGE_._type typeName: CA_RESPONSE_MESSAGE
           Found simple type derived from: string
@@ -1403,9 +1403,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is aligned: true
           are widechars: false
           is UTF-16BE: false
-           Adding entry for 'length for CA_RESPONSE_MESSAGE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '861623840'.
-           Adding entry for 'CA_RESPONSE_MESSAGE' for type 'TEXT' and language 'COBOL' of length '79' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '861623840'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '81' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '1917025677'.
+           Adding entry for 'length for CA_RESPONSE_MESSAGE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '22510052'.
+           Adding entry for 'CA_RESPONSE_MESSAGE' for type 'TEXT' and language 'COBOL' of length '79' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '22510052'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '81' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '4970570'.
 
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
@@ -1415,8 +1415,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '96' with mapping strategy 'NOT APPLIC' to level '1917025677'.
-          Creating a new level with initial offset 104 and identity 1322642290
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '96' with mapping strategy 'NOT APPLIC' to level '4970570'.
+          Creating a new level with initial offset 104 and identity 25240705
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
             in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -1425,7 +1425,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-          Creating a new level with initial offset 104 and identity 318353283
+          Creating a new level with initial offset 104 and identity 13529133
           Processing element: #CA_INQUIRE_REQUEST type namespace: null
            Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_INQUIRE_REQUEST_._type
            Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -1446,8 +1446,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '318353283'.
-             Creating a new level with initial offset 108 and identity 2121199924
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '13529133'.
+             Creating a new level with initial offset 108 and identity 10617089
              Processing element: #CA_LIST_START_REF type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_LIST_START_REF_._type typeName: CA_LIST_START_REF
              Found simple type derived from: unsignedShort
@@ -1459,11 +1459,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 9999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_LIST_START_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '2121199924'.
+              Adding entry for 'CA_LIST_START_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '10617089'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '318353283'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '13529133'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1473,8 +1473,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '318353283'.
-             Creating a new level with initial offset 116 and identity 1088104996
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '13529133'.
+             Creating a new level with initial offset 116 and identity 22401154
              Processing element: #CA_LAST_ITEM_REF type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_LAST_ITEM_REF_._type typeName: CA_LAST_ITEM_REF
              Found simple type derived from: unsignedShort
@@ -1486,11 +1486,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 9999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_LAST_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1088104996'.
+              Adding entry for 'CA_LAST_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '22401154'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '318353283'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '13529133'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1500,8 +1500,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '16' with mapping strategy 'NOT APPLIC' to level '318353283'.
-             Creating a new level with initial offset 124 and identity 421637524
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '16' with mapping strategy 'NOT APPLIC' to level '13529133'.
+             Creating a new level with initial offset 124 and identity 1599648
              Processing element: #CA_ITEM_COUNT type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_ITEM_COUNT_._type typeName: CA_ITEM_COUNT
              Found simple type derived from: unsignedShort
@@ -1513,11 +1513,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_ITEM_COUNT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '421637524'.
+              Adding entry for 'CA_ITEM_COUNT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1599648'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '20' with mapping strategy 'NOT APPLIC' to level '318353283'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '20' with mapping strategy 'NOT APPLIC' to level '13529133'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 15 isComplex = true delegate = null
@@ -1527,8 +1527,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: true
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '24' with mapping strategy 'NOT APPLIC' to level '318353283'.
-             Creating a new level with initial offset 132 and identity 393996856
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '24' with mapping strategy 'NOT APPLIC' to level '13529133'.
+             Creating a new level with initial offset 132 and identity 20506522
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 15 isComplex = true delegate = null
                in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -1537,7 +1537,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: false
              is optional array: true
-             Creating a new level with initial offset 132 and identity 2131960182
+             Creating a new level with initial offset 132 and identity 30217866
              Processing element: #CA_CAT_ITEM type namespace: null
               Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_CAT_ITEM_._type
               Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -1558,8 +1558,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 136 and identity 640808588
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 136 and identity 27401316
                 Processing element: #CA_ITEM_REF type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_ITEM_REF_._type typeName: CA_ITEM_REF
                 Found simple type derived from: unsignedShort
@@ -1571,11 +1571,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 9999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'CA_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '640808588'.
+                 Adding entry for 'CA_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '27401316'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '2131960182'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '30217866'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1585,8 +1585,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 144 and identity 145581669
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 144 and identity 12326081
                 Processing element: #CA_DESCRIPTION type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_DESCRIPTION_._type typeName: CA_DESCRIPTION
                 Found simple type derived from: string
@@ -1599,9 +1599,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'length for CA_DESCRIPTION' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '145581669'.
-                 Adding entry for 'CA_DESCRIPTION' for type 'TEXT' and language 'COBOL' of length '40' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '145581669'.
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '42' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '2131960182'.
+                 Adding entry for 'length for CA_DESCRIPTION' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '12326081'.
+                 Adding entry for 'CA_DESCRIPTION' for type 'TEXT' and language 'COBOL' of length '40' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '12326081'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '42' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '30217866'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1611,8 +1611,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '56' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 192 and identity 428039780
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '56' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 192 and identity 15673256
                 Processing element: #CA_DEPARTMENT type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_DEPARTMENT_._type typeName: CA_DEPARTMENT
                 Found simple type derived from: unsignedShort
@@ -1624,11 +1624,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'CA_DEPARTMENT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '428039780'.
+                 Adding entry for 'CA_DEPARTMENT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '15673256'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '60' with mapping strategy 'NOT APPLIC' to level '2131960182'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '60' with mapping strategy 'NOT APPLIC' to level '30217866'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1638,8 +1638,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '64' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 200 and identity 198112003
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '64' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 200 and identity 966016
                 Processing element: #CA_COST type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_COST_._type typeName: CA_COST
                 Found simple type derived from: string
@@ -1652,9 +1652,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'length for CA_COST' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '198112003'.
-                 Adding entry for 'CA_COST' for type 'TEXT' and language 'COBOL' of length '6' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '198112003'.
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '8' and required alignment 'BYTE' at offset '68' with mapping strategy 'NOT APPLIC' to level '2131960182'.
+                 Adding entry for 'length for CA_COST' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '966016'.
+                 Adding entry for 'CA_COST' for type 'TEXT' and language 'COBOL' of length '6' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '966016'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '8' and required alignment 'BYTE' at offset '68' with mapping strategy 'NOT APPLIC' to level '30217866'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1664,8 +1664,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '76' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 212 and identity 1107530534
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '76' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 212 and identity 16109090
                 Processing element: #IN_STOCK type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#IN_STOCK_._type typeName: IN_STOCK
                 Found simple type derived from: unsignedShort
@@ -1677,11 +1677,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 9999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'IN_STOCK' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1107530534'.
+                 Adding entry for 'IN_STOCK' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '16109090'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '80' with mapping strategy 'NOT APPLIC' to level '2131960182'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '80' with mapping strategy 'NOT APPLIC' to level '30217866'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -1691,8 +1691,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '84' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-                Creating a new level with initial offset 220 and identity 1335503880
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '84' with mapping strategy 'NOT APPLIC' to level '30217866'.
+                Creating a new level with initial offset 220 and identity 16641168
                 Processing element: #ON_ORDER type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#ON_ORDER_._type typeName: ON_ORDER
                 Found simple type derived from: unsignedShort
@@ -1704,19 +1704,19 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'ON_ORDER' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1335503880'.
+                 Adding entry for 'ON_ORDER' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '16641168'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '88' with mapping strategy 'NOT APPLIC' to level '2131960182'.
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '92' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '393996856'.
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1380' and required alignment 'BYTE' at offset '28' with mapping strategy 'NOT APPLIC' to level '318353283'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1322642290'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '100' with mapping strategy 'NOT APPLIC' to level '1917025677'.
-        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '474488818'.
-        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '192694377'.
-     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '41765385'.
-  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1070157899'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '88' with mapping strategy 'NOT APPLIC' to level '30217866'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '92' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '20506522'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1380' and required alignment 'BYTE' at offset '28' with mapping strategy 'NOT APPLIC' to level '13529133'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '25240705'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '100' with mapping strategy 'NOT APPLIC' to level '4970570'.
+        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '24921914'.
+        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '23994979'.
+     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '31082713'.
+  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '15871901'.
 Finished adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessageData}DFHWrapper
 
 
@@ -4460,7 +4460,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS7099054944232801069.wsdl
+  URI: /tmp/DFHLS2JS9220780601629878623.wsdl
 
 
 Creating ICM: TMP
@@ -4472,9 +4472,9 @@ Creating ICM: TMP
  message type: Directionless Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS7099054944232801069.wsdl
-<!-- loading: file:/tmp/DFHLS2JS7099054944232801069.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS7099054944232801069.wsdl >
+Main input is from: file:/tmp/DFHLS2JS9220780601629878623.wsdl
+<!-- loading: file:/tmp/DFHLS2JS9220780601629878623.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS9220780601629878623.wsdl >
 XML file
 --------
 
@@ -4677,7 +4677,7 @@ XML file
 
 
 
- Creating a new level with initial offset 0 and identity 349259569
+ Creating a new level with initial offset 0 and identity 4379319
 Found ICM Element: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
 Processing ICM Element: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
 
@@ -4691,16 +4691,16 @@ Creating ICM: DFHWrapper
  message type: Directionless Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
- Creating a new level with initial offset 0 and identity 785306763
+ Creating a new level with initial offset 0 and identity 5946263
 Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
    in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
-   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@47c4ecdc (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/RequestMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
+   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@11f29fa (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/RequestMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
    in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
  Particle must appear 1 to 1 times.
  is structural: true
  is mixed: false
  suppress padding message: true
- Creating a new level with initial offset 0 and identity 1123236701
+ Creating a new level with initial offset 0 and identity 15382945
  Processing element: http://www.example.org/WSDLTemplate/RequestMessageData#DFHWrapper type namespace: null
   Processing complex type: http://www.example.org/WSDLTemplate/RequestMessageData#DFHWrapper_._type
   Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -4721,7 +4721,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageD
     is mixed: false
     suppress padding message: true
     is optional array: false
-    Creating a new level with initial offset 0 and identity 79161706
+    Creating a new level with initial offset 0 and identity 21403819
     Processing element: #ReqQueryParameters type namespace: http://www.example.org/WSDLTemplate/RequestMessageData
      Processing complex type: http://www.example.org/WSDLTemplate/RequestMessageData#ReqQueryParameters_._type
      Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -4753,12 +4753,12 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageD
        facet: maximum value: 9999
        facet: minimum value: 0
        facet: pattern value: [[\-+]?[0-9]+]
-        Adding entry for 'startItemID' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '79161706'.
+        Adding entry for 'startItemID' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '21403819'.
        is aligned: true
        are widechars: false
        is UTF-16BE: false
-     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1123236701'.
-  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '785306763'.
+     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '15382945'.
+  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '5946263'.
 Finished adding element declaration: {http://www.example.org/WSDLTemplate/RequestMessageData}DFHWrapper
 
 
@@ -5117,16 +5117,16 @@ Creating ICM: DFHWrapper
  message type: Directionless Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
- Creating a new level with initial offset 0 and identity 1272051933
+ Creating a new level with initial offset 0 and identity 15360403
 Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessageData}DFHWrapper
    in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
-   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@7096b474 (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/ResponseMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
+   minOccurs = 1 maxOccurs = 1 isComplex = true delegate = org.eclipse.xsd.impl.XSDElementDeclarationImpl@1aa3ca5 (element: [xsd:element: null]) (name: DFHWrapper, targetNamespace: http://www.example.org/WSDLTemplate/ResponseMessageData) (value: null, constraint: <unset>, form: qualified, lexicalValue: null) (nillable: <unset>, disallowedSubstitutions: [], substitutionGroupExclusions: [], abstract: <unset>, lexicalFinal: [], block: [])
    in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
  Particle must appear 1 to 1 times.
  is structural: true
  is mixed: false
  suppress padding message: true
- Creating a new level with initial offset 0 and identity 1041547629
+ Creating a new level with initial offset 0 and identity 26237951
  Processing element: http://www.example.org/WSDLTemplate/ResponseMessageData#DFHWrapper type namespace: null
   Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#DFHWrapper_._type
   Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -5147,7 +5147,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
     is mixed: false
     suppress padding message: true
     is optional array: false
-    Creating a new level with initial offset 0 and identity 2018220300
+    Creating a new level with initial offset 0 and identity 23796103
     Processing element: #RespBody type namespace: http://www.example.org/WSDLTemplate/ResponseMessageData
      Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#RespBody_._type
      Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -5168,8 +5168,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
        is mixed: false
        suppress padding message: true
        is optional array: false
-        Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '2018220300'.
-       Creating a new level with initial offset 4 and identity 633079302
+        Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '23796103'.
+       Creating a new level with initial offset 4 and identity 13410927
          in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
          in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -5178,7 +5178,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
        is mixed: false
        suppress padding message: true
        is optional array: false
-       Creating a new level with initial offset 4 and identity 1561745898
+       Creating a new level with initial offset 4 and identity 12014861
        Processing element: #DFH0XCP1 type namespace: null
         Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#DFH0XCP1_._type
         Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -5199,8 +5199,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1561745898'.
-          Creating a new level with initial offset 8 and identity 424786033
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '12014861'.
+          Creating a new level with initial offset 8 and identity 5512213
           Processing element: #CA_RETURN_CODE type namespace: null
           Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_RETURN_CODE_._type typeName: CA_RETURN_CODE
           Found simple type derived from: unsignedShort
@@ -5212,11 +5212,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           facet: maximum value: 99
           facet: minimum value: 0
           facet: pattern value: [[\-+]?[0-9]+]
-           Adding entry for 'CA_RETURN_CODE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '424786033'.
+           Adding entry for 'CA_RETURN_CODE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '5512213'.
           is aligned: true
           are widechars: false
           is UTF-16BE: false
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '1561745898'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '12014861'.
 
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5226,8 +5226,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '1561745898'.
-          Creating a new level with initial offset 16 and identity 867093003
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '12014861'.
+          Creating a new level with initial offset 16 and identity 25240242
           Processing element: #CA_RESPONSE_MESSAGE type namespace: null
           Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_RESPONSE_MESSAGE_._type typeName: CA_RESPONSE_MESSAGE
           Found simple type derived from: string
@@ -5240,9 +5240,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is aligned: true
           are widechars: false
           is UTF-16BE: false
-           Adding entry for 'length for CA_RESPONSE_MESSAGE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '867093003'.
-           Adding entry for 'CA_RESPONSE_MESSAGE' for type 'TEXT' and language 'COBOL' of length '79' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '867093003'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '81' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '1561745898'.
+           Adding entry for 'length for CA_RESPONSE_MESSAGE' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '25240242'.
+           Adding entry for 'CA_RESPONSE_MESSAGE' for type 'TEXT' and language 'COBOL' of length '79' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '25240242'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '81' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '12014861'.
 
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
@@ -5252,8 +5252,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '96' with mapping strategy 'NOT APPLIC' to level '1561745898'.
-          Creating a new level with initial offset 104 and identity 1470911015
+           Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '96' with mapping strategy 'NOT APPLIC' to level '12014861'.
+          Creating a new level with initial offset 104 and identity 8038443
             in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = true delegate = null
             in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -5262,7 +5262,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
           is mixed: false
           suppress padding message: true
           is optional array: false
-          Creating a new level with initial offset 104 and identity 1268974304
+          Creating a new level with initial offset 104 and identity 19664520
           Processing element: #CA_INQUIRE_REQUEST type namespace: null
            Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_INQUIRE_REQUEST_._type
            Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -5283,8 +5283,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1268974304'.
-             Creating a new level with initial offset 108 and identity 451312813
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '19664520'.
+             Creating a new level with initial offset 108 and identity 1822910
              Processing element: #CA_LIST_START_REF type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_LIST_START_REF_._type typeName: CA_LIST_START_REF
              Found simple type derived from: unsignedShort
@@ -5296,11 +5296,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 9999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_LIST_START_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '451312813'.
+              Adding entry for 'CA_LIST_START_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1822910'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '1268974304'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '19664520'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5310,8 +5310,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '1268974304'.
-             Creating a new level with initial offset 116 and identity 2081000371
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '19664520'.
+             Creating a new level with initial offset 116 and identity 6816973
              Processing element: #CA_LAST_ITEM_REF type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_LAST_ITEM_REF_._type typeName: CA_LAST_ITEM_REF
              Found simple type derived from: unsignedShort
@@ -5323,11 +5323,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 9999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_LAST_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '2081000371'.
+              Adding entry for 'CA_LAST_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '6816973'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '1268974304'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '19664520'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5337,8 +5337,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: false
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '16' with mapping strategy 'NOT APPLIC' to level '1268974304'.
-             Creating a new level with initial offset 124 and identity 416201381
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '16' with mapping strategy 'NOT APPLIC' to level '19664520'.
+             Creating a new level with initial offset 124 and identity 10045886
              Processing element: #CA_ITEM_COUNT type namespace: null
              Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_ITEM_COUNT_._type typeName: CA_ITEM_COUNT
              Found simple type derived from: unsignedShort
@@ -5350,11 +5350,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              facet: maximum value: 999
              facet: minimum value: 0
              facet: pattern value: [[\-+]?[0-9]+]
-              Adding entry for 'CA_ITEM_COUNT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '416201381'.
+              Adding entry for 'CA_ITEM_COUNT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '10045886'.
              is aligned: true
              are widechars: false
              is UTF-16BE: false
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '20' with mapping strategy 'NOT APPLIC' to level '1268974304'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '20' with mapping strategy 'NOT APPLIC' to level '19664520'.
 
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 15 isComplex = true delegate = null
@@ -5364,8 +5364,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: true
              is optional array: true
-              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '24' with mapping strategy 'NOT APPLIC' to level '1268974304'.
-             Creating a new level with initial offset 132 and identity 1985938863
+              Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '24' with mapping strategy 'NOT APPLIC' to level '19664520'.
+             Creating a new level with initial offset 132 and identity 27819575
                in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 15 isComplex = true delegate = null
                in isMixedContent(particle) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
@@ -5374,7 +5374,7 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
              is mixed: false
              suppress padding message: false
              is optional array: true
-             Creating a new level with initial offset 132 and identity 1660325375
+             Creating a new level with initial offset 132 and identity 15413647
              Processing element: #CA_CAT_ITEM type namespace: null
               Processing complex type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_CAT_ITEM_._type
               Content is of type: org.eclipse.xsd.impl.XSDParticleImpl
@@ -5395,8 +5395,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 136 and identity 334593716
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 136 and identity 28153725
                 Processing element: #CA_ITEM_REF type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_ITEM_REF_._type typeName: CA_ITEM_REF
                 Found simple type derived from: unsignedShort
@@ -5408,11 +5408,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 9999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'CA_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '334593716'.
+                 Adding entry for 'CA_ITEM_REF' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '28153725'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '1660325375'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '15413647'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5422,8 +5422,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 144 and identity 1271041075
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '8' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 144 and identity 2108619
                 Processing element: #CA_DESCRIPTION type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_DESCRIPTION_._type typeName: CA_DESCRIPTION
                 Found simple type derived from: string
@@ -5436,9 +5436,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'length for CA_DESCRIPTION' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1271041075'.
-                 Adding entry for 'CA_DESCRIPTION' for type 'TEXT' and language 'COBOL' of length '40' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '1271041075'.
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '42' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '1660325375'.
+                 Adding entry for 'length for CA_DESCRIPTION' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '2108619'.
+                 Adding entry for 'CA_DESCRIPTION' for type 'TEXT' and language 'COBOL' of length '40' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '2108619'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '42' and required alignment 'BYTE' at offset '12' with mapping strategy 'NOT APPLIC' to level '15413647'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5448,8 +5448,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '56' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 192 and identity 1544895390
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '56' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 192 and identity 28465189
                 Processing element: #CA_DEPARTMENT type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_DEPARTMENT_._type typeName: CA_DEPARTMENT
                 Found simple type derived from: unsignedShort
@@ -5461,11 +5461,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'CA_DEPARTMENT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1544895390'.
+                 Adding entry for 'CA_DEPARTMENT' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '28465189'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '60' with mapping strategy 'NOT APPLIC' to level '1660325375'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '60' with mapping strategy 'NOT APPLIC' to level '15413647'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5475,8 +5475,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '64' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 200 and identity 1971991758
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '64' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 200 and identity 30375250
                 Processing element: #CA_COST type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#CA_COST_._type typeName: CA_COST
                 Found simple type derived from: string
@@ -5489,9 +5489,9 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'length for CA_COST' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '1971991758'.
-                 Adding entry for 'CA_COST' for type 'TEXT' and language 'COBOL' of length '6' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '1971991758'.
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '8' and required alignment 'BYTE' at offset '68' with mapping strategy 'NOT APPLIC' to level '1660325375'.
+                 Adding entry for 'length for CA_COST' for type 'NUMERIC' and language 'COBOL' of length '2' and required alignment 'HALF-WORD' at offset '0' with mapping strategy 'NOT APPLIC' to level '30375250'.
+                 Adding entry for 'CA_COST' for type 'TEXT' and language 'COBOL' of length '6' and required alignment 'BYTE' at offset '2' with mapping strategy 'VARYING_ARRAY' to level '30375250'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '8' and required alignment 'BYTE' at offset '68' with mapping strategy 'NOT APPLIC' to level '15413647'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5501,8 +5501,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '76' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 212 and identity 201274566
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '76' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 212 and identity 19549933
                 Processing element: #IN_STOCK type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#IN_STOCK_._type typeName: IN_STOCK
                 Found simple type derived from: unsignedShort
@@ -5514,11 +5514,11 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 9999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'IN_STOCK' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '201274566'.
+                 Adding entry for 'IN_STOCK' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '19549933'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '80' with mapping strategy 'NOT APPLIC' to level '1660325375'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'BYTE' at offset '80' with mapping strategy 'NOT APPLIC' to level '15413647'.
 
                   in isStructuralElement(particle, false) content is of type: org.eclipse.xsd.impl.XSDElementDeclarationImpl
    minOccurs = 0 maxOccurs = 1 isComplex = false delegate = null
@@ -5528,8 +5528,8 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 is mixed: false
                 suppress padding message: false
                 is optional array: false
-                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '84' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-                Creating a new level with initial offset 220 and identity 824881806
+                 Adding entry for 'instances count field' for type 'NUMERIC' and language 'COBOL' of length '4' and required alignment 'FULL-WORD' at offset '84' with mapping strategy 'NOT APPLIC' to level '15413647'.
+                Creating a new level with initial offset 220 and identity 17319622
                 Processing element: #ON_ORDER type namespace: null
                 Processing simple type: http://www.example.org/WSDLTemplate/ResponseMessageData#ON_ORDER_._type typeName: ON_ORDER
                 Found simple type derived from: unsignedShort
@@ -5541,19 +5541,19 @@ Adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessage
                 facet: maximum value: 999
                 facet: minimum value: 0
                 facet: pattern value: [[\-+]?[0-9]+]
-                 Adding entry for 'ON_ORDER' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '824881806'.
+                 Adding entry for 'ON_ORDER' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '17319622'.
                 is aligned: true
                 are widechars: false
                 is UTF-16BE: false
-                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '88' with mapping strategy 'NOT APPLIC' to level '1660325375'.
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '92' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1985938863'.
-              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1380' and required alignment 'BYTE' at offset '28' with mapping strategy 'NOT APPLIC' to level '1268974304'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1470911015'.
-           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '100' with mapping strategy 'NOT APPLIC' to level '1561745898'.
-        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '633079302'.
-        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '2018220300'.
-     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1041547629'.
-  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '1272051933'.
+                 Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '3' and required alignment 'BYTE' at offset '88' with mapping strategy 'NOT APPLIC' to level '15413647'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '92' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '27819575'.
+              Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1380' and required alignment 'BYTE' at offset '28' with mapping strategy 'NOT APPLIC' to level '19664520'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '8038443'.
+           Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1408' and required alignment 'BYTE' at offset '100' with mapping strategy 'NOT APPLIC' to level '12014861'.
+        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '13410927'.
+        Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1508' and required alignment 'BYTE' at offset '4' with mapping strategy 'NOT APPLIC' to level '23796103'.
+     Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '26237951'.
+  Adding entry for 'space for an array' for type 'NUMERIC' and language 'COBOL' of length '1512' and required alignment 'BYTE' at offset '0' with mapping strategy 'NOT APPLIC' to level '15360403'.
 Finished adding element declaration: {http://www.example.org/WSDLTemplate/ResponseMessageData}DFHWrapper
 
 
@@ -8325,8 +8325,8 @@ The contents of the WSBind file follow:
 
 
 Offset: 0x0000000000000000 (0)
- 6ee6e2c2 c9d5c44c 00002a70 f2f0f2f0   f0f4f0f9 f1f5f4f3 010a0000 61a39497      *>WSBIND<...ø202004091543..../tmp*
- 61f1f2f9 f0f3f4f1 f4f1f1f6 f5f5f0f0   f2f8f7f3 61a6a260 82899584 a2618785      */1290341411655002873/ws-binds/ge*
+ 6ee6e2c2 c9d5c44c 00002a70 f2f0f2f0   f0f4f0f9 f1f9f4f4 010a0000 61a39497      *>WSBIND<...ø202004091944..../tmp*
+ 61f6f0f6 f4f4f2f3 f3f0f3f6 f7f4f3f8   f0f2f9f1 61a6a260 82899584 a2618785      */6064423303674380291/ws-binds/ge*
  a3c99598 a4899985 c381a381 9396874b   a6a28289 95844040 40404040 40404040      *tInquireCatalog.wsbind          *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
@@ -8336,8 +8336,8 @@ Offset: 0x0000000000000000 (0)
  
 Offset: 0x0000000000000100 (256)
  40404040 40404040 40404040 40404040   40404040 40404040 404040c4 00000ac4      *                           D...D*
- 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f7f0 f9f9f0f5 f4f9f4f4 f2f3f2f8      *...../tmp/DFHLS2JS70990549442328*
- f0f1f0f6 f94ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *01069.wsdl                      *
+ 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f9f2 f2f0f7f8 f0f6f0f1 f6f2f9f8      *...../tmp/DFHLS2JS92207806016298*
+ f7f8f6f2 f34ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *78623.wsdl                      *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
@@ -8840,6 +8840,7 @@ DFHPI9561I Identifier "CA_COST" has generated a name-clash for operation "JSON".
              06 ReqQueryParameters.
                09 startItemID                   PIC 9(4) DISPLAY.
  
+DFHPI9582I File "archives/ara/structures/API00Q01" has been replaced.
 
 
       * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -9209,4 +9210,5 @@ DFHPI9561I Identifier "CA_COST" has generated a name-clash for operation "JSON".
                      18 ON-ORDER                      PIC 9(3) DISPLAY.
                      18 filler                        PIC X(1).
  
+DFHPI9582I File "archives/ara/structures/API00P01" has been replaced.
 DFHPI9587I Program "DFHJS2LS" has completed SUCCESSFULLY.
