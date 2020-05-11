@@ -12,12 +12,6 @@ pipeline {
             }
         }
         
-        stage("Checkout from GitHub") {
-            steps {
-                git 'https://github.com/Jack-Billings-IBM/catalogManager'                
-            }
-        }
-        
         stage('Ceate AAR File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
@@ -34,7 +28,7 @@ pipeline {
                 sh "git add -A"
                 sh "git commit -m 'new ara and sar files'"
                 //need to add git credentials to jenkins
-                withCredentials([usernamePassword(credentialsId: 'github', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]){    
+                withCredentials([usernamePassword(credentialsId: 'git', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]){    
                     sh('''
                         git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
                         git push origin HEAD:master
