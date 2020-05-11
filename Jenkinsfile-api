@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+    tools {
+        jdk "JDK8"
+    }    
+    stages {
+        stage("Test API") {
+            steps {
+                sh "curl -X GET --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
+                sh "curl -X GET --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
+                sh 'curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}""http://10.1.1.2:9080/catalogManager/orders"'
+            }
+        }
+        
+        stage("Checkout from GitHub") {
+            steps {
+                git 'https://github.com/Jack-Billings-IBM/catalogManager'                
+            }
+        }
+        
+        stage('Ceate AAR File') {
+            steps {
+                sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
+            }
+        }
+        
+        stage("Create ARA File") {
+            steps {
+                sh "zconbt/bin/zconbt --properties=properties/catalog_ara.properties --file=archives/ara/catalog.ara"
+            }
+        }
+        stage("Push to GitHub") {
+            steps {
+                sh "git add -A"
+                sh "git commit -m 'new ara and sar files'"
+                //need to add git credentials to jenkins
+                withCredentials([usernamePassword(credentialsId: 'github', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]){    
+                    sh('''
+                        git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
+                        git push origin HEAD:master
+                    ''')
+                }
+            }
+        }
+    }
+}
