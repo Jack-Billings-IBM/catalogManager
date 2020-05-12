@@ -6,9 +6,9 @@ pipeline {
     stages {
         stage("Test API") {
             steps {
-                sh "curl -X GET --header --fail 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
-                sh "curl -X GET --header --fail 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
-                sh 'curl -X POST --header --fail --header "Accept: application/json" "http://10.1.1.2:9080/catalogManager/orders" -d "{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}"'
+                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
+                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
+                sh 'curl -X POST --fail --header --header "Accept: application/json" "http://10.1.1.2:9080/catalogManager/orders" -d "{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}"'
             }
         }
         
