@@ -34,6 +34,8 @@ pipeline {
                 //sh "zconbt/bin/zconbt --projectDirectory=inquireSingle --file=inquireSingle/inquireSingle.sar"
                 //sh "zconbt/bin/zconbt --projectDirectory=inquireCatalog --file=inquireCatalog/inquireCatalog.sar"
                 //sh "zconbt/bin/zconbt --projectDirectory=placeOrder --file=placeOrder/placeOrder.sar"
+                //sh "git config --global user.email 'jack.billings@ibm.com'"
+                //sh "git config --global user.name 'Jack-Billings-IBM'"
                 sh "git add -A"
                 sh "git commit -m 'new sar file'"
                 //need to add git credentials to jenkins
