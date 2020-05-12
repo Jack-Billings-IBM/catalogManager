@@ -30,7 +30,7 @@ pipeline {
         
         stage("Push to GitHub") {
             steps {
-                git changelog: false, credentialsId: 'git', poll: false, url:'https://github.com/Jack-Billings-IBM/catalogManager'
+                //git changelog: false, credentialsId: 'git', poll: false, url:'https://github.com/Jack-Billings-IBM/catalogManager'
                 //sh "zconbt/bin/zconbt --projectDirectory=inquireSingle --file=inquireSingle/inquireSingle.sar"
                 //sh "zconbt/bin/zconbt --projectDirectory=inquireCatalog --file=inquireCatalog/inquireCatalog.sar"
                 //sh "zconbt/bin/zconbt --projectDirectory=placeOrder --file=placeOrder/placeOrder.sar"
