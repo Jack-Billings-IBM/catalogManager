@@ -26,6 +26,8 @@ pipeline {
         stage("Push to GitHub") {
             steps {
                 sh "git add -A"
+                sh "git config --global user.email 'jack.billings@ibm.com'"
+                sh "git config --global user.name 'Jack-Billings-IBM'"
                 sh "git commit -m 'new ara and sar files'"
                 //need to add git credentials to jenkins
                 withCredentials([usernamePassword(credentialsId: 'git', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]){    
