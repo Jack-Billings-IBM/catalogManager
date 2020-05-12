@@ -8,7 +8,7 @@ pipeline {
             steps {
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
-                sh "curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}' 'http://10.1.1.2:9080/catalogManager/orders'"
+                sh "curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}' 'http://10.1.1.2:9080/catalogManager/orders' "
             }
         }
         
