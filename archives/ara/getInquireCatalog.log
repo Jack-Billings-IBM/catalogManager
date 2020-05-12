@@ -1,7 +1,7 @@
 Log file from: DFHJS2LS
 XSDBind file: null
 Mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
-Created: 12 May 2020 17:36
+Created: 12 May 2020 17:40
 Release: 
 Build-Level: COM2-201910171409
 Platform: Linux version 3.10.0-1127.el7.x86_64  (architecture i386)
@@ -38,8 +38,8 @@ DFHPI9609I Parameter "HTTPPROXY-PASSWORD" has value "null".
 DFHPI9609I Parameter "INLINE-MAXOCCURS-LIMIT" has value "32767".
 DFHPI9609I Parameter "JSON-SCHEMA" has value "null".
 DFHPI9609I Parameter "JSON-SCHEMA-CODEPAGE" has value "null".
-DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/6413790284657254886/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
-DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/6413790284657254886/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
+DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/6960069335327390680/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
+DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/6960069335327390680/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
 DFHPI9609I Parameter "JSON-SCHEMA-RESTFUL" has value "null".
 DFHPI9609I Parameter "JSONTRANSFRM" has value "null".
 DFHPI9609I Parameter "LANG" has value "COBOL".
@@ -79,7 +79,7 @@ DFHPI9609I Parameter "VENDOR-CONVERTER-NAME" has value "null".
 DFHPI9609I Parameter "VENDOR-APP-INTERFACE-LENGTH" has value "null".
 DFHPI9609I Parameter "VENDOR-META-DATA" has value "null".
 DFHPI9609I Parameter "WSADDR-EPR-ANY" has value "false".
-DFHPI9609I Parameter "WSBIND" has value "/tmp/6413790284657254886/ws-binds/getInquireCatalog.wsbind".
+DFHPI9609I Parameter "WSBIND" has value "/tmp/6960069335327390680/ws-binds/getInquireCatalog.wsbind".
 DFHPI9609I Parameter "WSDL" has value "null".
 DFHPI9609I Parameter "WSDLCP" has value "null".
 DFHPI9609I Parameter "WSDL-NAMESPACE" has value "null".
@@ -112,7 +112,7 @@ DFHPI9609I Parameter "INTEGER-AS-PIC9" has value "null".
 DFHPI9609I Parameter "NO-ARRAY-NAME-INDEXING" has value "null".
 DFHPI9609I Parameter "HYPHENS-AS-UNDERSCORES" has value "null".
 
-Processing JSON Schema file: /tmp/6413790284657254886/services/getInquireCatalog/schemas/getInquireCatalog_request.json
+Processing JSON Schema file: /tmp/6960069335327390680/services/getInquireCatalog/schemas/getInquireCatalog_request.json
 ----------------------------
 
 {
@@ -316,7 +316,7 @@ Processing JSON Schema file: /tmp/6413790284657254886/services/getInquireCatalog
 }
 
 
-Processing JSON Schema file: /tmp/6413790284657254886/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
+Processing JSON Schema file: /tmp/6960069335327390680/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
 ----------------------------
 
 {
@@ -634,7 +634,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS8374636681659638599.wsdl
+  URI: /tmp/DFHLS2JS2378946368475246268.wsdl
 
 
 Creating ICM: WSDLTemplateOperationRequest
@@ -646,9 +646,9 @@ Creating ICM: WSDLTemplateOperationRequest
  message type: Request Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS8374636681659638599.wsdl
-<!-- loading: file:/tmp/DFHLS2JS8374636681659638599.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS8374636681659638599.wsdl >
+Main input is from: file:/tmp/DFHLS2JS2378946368475246268.wsdl
+<!-- loading: file:/tmp/DFHLS2JS2378946368475246268.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS2378946368475246268.wsdl >
 XML file
 --------
 
@@ -4460,7 +4460,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS8374636681659638599.wsdl
+  URI: /tmp/DFHLS2JS2378946368475246268.wsdl
 
 
 Creating ICM: TMP
@@ -4472,9 +4472,9 @@ Creating ICM: TMP
  message type: Directionless Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS8374636681659638599.wsdl
-<!-- loading: file:/tmp/DFHLS2JS8374636681659638599.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS8374636681659638599.wsdl >
+Main input is from: file:/tmp/DFHLS2JS2378946368475246268.wsdl
+<!-- loading: file:/tmp/DFHLS2JS2378946368475246268.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS2378946368475246268.wsdl >
 XML file
 --------
 
@@ -8325,8 +8325,8 @@ The contents of the WSBind file follow:
 
 
 Offset: 0x0000000000000000 (0)
- 6ee6e2c2 c9d5c44c 00002a70 f2f0f2f0   f0f5f1f2 f1f7f3f6 010a0000 61a39497      *>WSBIND<...ø202005121736..../tmp*
- 61f6f4f1 f3f7f9f0 f2f8f4f6 f5f7f2f5   f4f8f8f6 61a6a260 82899584 a2618785      */6413790284657254886/ws-binds/ge*
+ 6ee6e2c2 c9d5c44c 00002a70 f2f0f2f0   f0f5f1f2 f1f7f4f0 010a0000 61a39497      *>WSBIND<...ø202005121740..../tmp*
+ 61f6f9f6 f0f0f6f9 f3f3f5f3 f2f7f3f9   f0f6f8f0 61a6a260 82899584 a2618785      */6960069335327390680/ws-binds/ge*
  a3c99598 a4899985 c381a381 9396874b   a6a28289 95844040 40404040 40404040      *tInquireCatalog.wsbind          *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
@@ -8336,8 +8336,8 @@ Offset: 0x0000000000000000 (0)
  
 Offset: 0x0000000000000100 (256)
  40404040 40404040 40404040 40404040   40404040 40404040 404040c4 00000ac4      *                           D...D*
- 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f8f3 f7f4f6f3 f6f6f8f1 f6f5f9f6      *...../tmp/DFHLS2JS83746366816596*
- f3f8f5f9 f94ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *38599.wsdl                      *
+ 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f2f3 f7f8f9f4 f6f3f6f8 f4f7f5f2      *...../tmp/DFHLS2JS23789463684752*
+ f4f6f2f6 f84ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *46268.wsdl                      *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
