@@ -4,63 +4,13 @@
     "DFH0XCP1" : {
       "type" : "object",
       "properties" : {
-        "CA_REQUEST_ID" : {
-          "maxLength" : 6,
-          "type" : "string"
-        },
-        "returnCode" : {
-          "minimum" : 0,
-          "maximum" : 99,
-          "type" : "integer"
-        },
-        "responseMessage" : {
-          "maxLength" : 79,
-          "type" : "string"
-        },
         "inquireSingle" : {
           "type" : "object",
           "properties" : {
-            "CA_ITEM_REF_REQ" : {
+            "itemID" : {
               "minimum" : 0,
               "maximum" : 9999,
               "type" : "integer"
-            },
-            "item" : {
-              "type" : "object",
-              "properties" : {
-                "itemID" : {
-                  "minimum" : 0,
-                  "maximum" : 9999,
-                  "type" : "integer"
-                },
-                "description" : {
-                  "maxLength" : 40,
-                  "type" : "string"
-                },
-                "department" : {
-                  "minimum" : 0,
-                  "maximum" : 999,
-                  "type" : "integer"
-                },
-                "cost" : {
-                  "maxLength" : 6,
-                  "type" : "string"
-                },
-                "stock" : {
-                  "minimum" : 0,
-                  "maximum" : 9999,
-                  "type" : "integer"
-                },
-                "onOrder" : {
-                  "minimum" : 0,
-                  "maximum" : 999,
-                  "type" : "integer"
-                }
-              }
-            },
-            "FILL_2" : {
-              "maxLength" : 840,
-              "type" : "string"
             }
           }
         }
