@@ -9,6 +9,7 @@ pipeline {
         stage('Ceate sar File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=inquireSingle --file=inquireSingle/inquireSingle.sar"
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'inquireSingle', sourceFiles: 'inquireSingle/inquireSingle.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
                 sh "zconbt/bin/zconbt --projectDirectory=inquireCatalog --file=inquireCatalog/inquireCatalog.sar"
                 sh "zconbt/bin/zconbt --projectDirectory=placeOrder --file=placeOrder/placeOrder.sar"
             }
@@ -16,7 +17,6 @@ pipeline {
         
         stage("Deploy sar Files") {
             steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'inquireSingle', sourceFiles: 'inquireSingle/inquireSingle.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'inquireCatalog', sourceFiles: 'inquireCatalog/inquireCatalog.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'placeOrder', sourceFiles: 'placeOrder/placeOrder.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
             }
