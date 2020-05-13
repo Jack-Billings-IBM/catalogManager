@@ -27,6 +27,14 @@
           "type" : "integer",
           "maximum" : 9999,
           "minimum" : 0
+        }, {
+          "in" : "body",
+          "name" : "getInquireCatalog_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/getInquireCatalog_request"
+          }
         } ],
         "responses" : {
           "200" : {
@@ -93,12 +101,30 @@
     }
   },
   "definitions" : {
+    "getInquireCatalog_request" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP1" : {
+          "type" : "object",
+          "properties" : {
+            "CA_TEST" : {
+              "type" : "string",
+              "maxLength" : 10
+            }
+          }
+        }
+      }
+    },
     "getInquireCatalog_response_200" : {
       "type" : "object",
       "properties" : {
         "DFH0XCP1" : {
           "type" : "object",
           "properties" : {
+            "CA_TEST" : {
+              "type" : "string",
+              "maxLength" : 10
+            },
             "CA_RETURN_CODE" : {
               "type" : "integer",
               "minimum" : 0,

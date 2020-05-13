@@ -3,6 +3,13 @@
   <xsd:element name="DFH0XCP1" type="tns:DFH0XCP1"/>
   <xsd:complexType name="DFH0XCP1">
     <xsd:sequence>
+      <xsd:element minOccurs="0" name="CA_TEST">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="10"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
       <xsd:element minOccurs="0" name="CA_REQUEST_ID">
         <xsd:simpleType>
           <xsd:restriction base="xsd:string">
