@@ -10,58 +10,61 @@
         },
         "CA_REQUEST_ID" : {
           "maxLength" : 6,
-          "type" : "string",
-          "default" : "01INQS"
+          "type" : "string"
         },
-        "CA_RETURN_CODE" : {
+        "returnCode" : {
           "minimum" : 0,
           "maximum" : 99,
           "type" : "integer"
         },
-        "CA_RESPONSE_MESSAGE" : {
+        "responseMessage" : {
           "maxLength" : 79,
           "type" : "string"
         },
         "inquireSingle" : {
           "type" : "object",
           "properties" : {
-            "itemID" : {
+            "CA_ITEM_REF_REQ" : {
               "minimum" : 0,
               "maximum" : 9999,
               "type" : "integer"
             },
-            "CA_SINGLE_ITEM" : {
+            "item" : {
               "type" : "object",
               "properties" : {
-                "CA_SNGL_ITEM_REF" : {
+                "itemID" : {
                   "minimum" : 0,
                   "maximum" : 9999,
                   "type" : "integer"
                 },
-                "CA_SNGL_DESCRIPTION" : {
+                "description" : {
                   "maxLength" : 40,
                   "type" : "string"
                 },
-                "CA_SNGL_DEPARTMENT" : {
+                "department" : {
                   "minimum" : 0,
                   "maximum" : 999,
                   "type" : "integer"
                 },
-                "CA_SNGL_COST" : {
+                "cost" : {
                   "maxLength" : 6,
                   "type" : "string"
                 },
-                "IN_SNGL_STOCK" : {
+                "stock" : {
                   "minimum" : 0,
                   "maximum" : 9999,
                   "type" : "integer"
                 },
-                "ON_SNGL_ORDER" : {
+                "onOrder" : {
                   "minimum" : 0,
                   "maximum" : 999,
                   "type" : "integer"
                 }
               }
+            },
+            "FILL_2" : {
+              "maxLength" : 840,
+              "type" : "string"
             }
           }
         }

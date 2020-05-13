@@ -8,15 +8,15 @@
     <conversionType>3</conversionType>
     <dataProtocol>0</dataProtocol>
     <serviceInputInterface>
-        <metadataName>inquireSingle-input.si</metadataName>
+        <metadataName>inquireSingle-output.si</metadataName>
         <serviceInterface>
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP1">
                         <field included="Y" fieldName="CA_TEST"/>
-                        <field included="Y" fieldName="CA_REQUEST_ID" defaultValue="01INQS" isHex="false"/>
-                        <field included="Y" fieldName="CA_RETURN_CODE"/>
-                        <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
+                        <field included="Y" fieldName="CA_REQUEST_ID"/>
+                        <field included="Y" fieldName="returnCode" isHex="false"/>
+                        <field included="Y" fieldName="responseMessage" isHex="false"/>
                         <field included="N" fieldName="CA_REQUEST_SPECIFIC"/>
                         <field included="N" fieldName="CA_INQUIRE_REQUEST">
                             <field included="N" fieldName="CA_LIST_START_REF"/>
@@ -33,18 +33,18 @@
                             </field>
                         </field>
                         <field included="Y" fieldName="inquireSingle">
-                            <field included="Y" fieldName="itemID" isHex="false"/>
+                            <field included="Y" fieldName="CA_ITEM_REF_REQ"/>
                             <field included="N" fieldName="FILL_0"/>
                             <field included="N" fieldName="FILL_1"/>
-                            <field included="Y" fieldName="CA_SINGLE_ITEM">
-<field included="Y" fieldName="CA_SNGL_ITEM_REF"/>
-<field included="Y" fieldName="CA_SNGL_DESCRIPTION"/>
-<field included="Y" fieldName="CA_SNGL_DEPARTMENT"/>
-<field included="Y" fieldName="CA_SNGL_COST"/>
-<field included="Y" fieldName="IN_SNGL_STOCK"/>
-<field included="Y" fieldName="ON_SNGL_ORDER"/>
+                            <field included="Y" fieldName="item">
+<field included="Y" fieldName="itemID" isHex="false"/>
+<field included="Y" fieldName="description" isHex="false"/>
+<field included="Y" fieldName="department" isHex="false"/>
+<field included="Y" fieldName="cost" isHex="false"/>
+<field included="Y" fieldName="stock" isHex="false"/>
+<field included="Y" fieldName="onOrder" isHex="false"/>
                             </field>
-                            <field included="N" fieldName="FILL_2"/>
+                            <field included="Y" fieldName="FILL_2"/>
                         </field>
                         <field included="N" fieldName="CA_ORDER_REQUEST">
                             <field included="N" fieldName="CA_USERID"/>
@@ -60,15 +60,15 @@
         <version>0</version>
     </serviceInputInterface>
     <serviceOutputInterface>
-        <metadataName>inquireSingle-input.si</metadataName>
+        <metadataName>inquireSingle-output.si</metadataName>
         <serviceInterface>
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP1">
                         <field included="Y" fieldName="CA_TEST"/>
-                        <field included="Y" fieldName="CA_REQUEST_ID" defaultValue="01INQS" isHex="false"/>
-                        <field included="Y" fieldName="CA_RETURN_CODE"/>
-                        <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
+                        <field included="Y" fieldName="CA_REQUEST_ID"/>
+                        <field included="Y" fieldName="returnCode" isHex="false"/>
+                        <field included="Y" fieldName="responseMessage" isHex="false"/>
                         <field included="N" fieldName="CA_REQUEST_SPECIFIC"/>
                         <field included="N" fieldName="CA_INQUIRE_REQUEST">
                             <field included="N" fieldName="CA_LIST_START_REF"/>
@@ -85,18 +85,18 @@
                             </field>
                         </field>
                         <field included="Y" fieldName="inquireSingle">
-                            <field included="Y" fieldName="itemID" isHex="false"/>
+                            <field included="Y" fieldName="CA_ITEM_REF_REQ"/>
                             <field included="N" fieldName="FILL_0"/>
                             <field included="N" fieldName="FILL_1"/>
-                            <field included="Y" fieldName="CA_SINGLE_ITEM">
-<field included="Y" fieldName="CA_SNGL_ITEM_REF"/>
-<field included="Y" fieldName="CA_SNGL_DESCRIPTION"/>
-<field included="Y" fieldName="CA_SNGL_DEPARTMENT"/>
-<field included="Y" fieldName="CA_SNGL_COST"/>
-<field included="Y" fieldName="IN_SNGL_STOCK"/>
-<field included="Y" fieldName="ON_SNGL_ORDER"/>
+                            <field included="Y" fieldName="item">
+<field included="Y" fieldName="itemID" isHex="false"/>
+<field included="Y" fieldName="description" isHex="false"/>
+<field included="Y" fieldName="department" isHex="false"/>
+<field included="Y" fieldName="cost" isHex="false"/>
+<field included="Y" fieldName="stock" isHex="false"/>
+<field included="Y" fieldName="onOrder" isHex="false"/>
                             </field>
-                            <field included="N" fieldName="FILL_2"/>
+                            <field included="Y" fieldName="FILL_2"/>
                         </field>
                         <field included="N" fieldName="CA_ORDER_REQUEST">
                             <field included="N" fieldName="CA_USERID"/>
