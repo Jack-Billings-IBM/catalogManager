@@ -13,7 +13,6 @@
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP1">
-                        <field included="Y" fieldName="CA_TEST"/>
                         <field included="Y" fieldName="CA_REQUEST_ID"/>
                         <field included="Y" fieldName="returnCode" isHex="false"/>
                         <field included="Y" fieldName="responseMessage" isHex="false"/>
@@ -65,7 +64,6 @@
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP1">
-                        <field included="Y" fieldName="CA_TEST"/>
                         <field included="Y" fieldName="CA_REQUEST_ID"/>
                         <field included="Y" fieldName="returnCode" isHex="false"/>
                         <field included="Y" fieldName="responseMessage" isHex="false"/>
