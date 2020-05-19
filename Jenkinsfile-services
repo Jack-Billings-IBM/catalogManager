@@ -6,6 +6,11 @@ pipeline {
         jdk "JDK8"
     }
     stages {
+        stage('Update Copybooks on z/OS') {
+            steps {
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '\'DFH540.CICS.SDFHSAMP\'', remoteDirectorySDF: false, removePrefix: 'copybooks', sourceFiles: 'copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
+            }
+        }
         stage('Ceate sar File') {
             steps {
                 sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=inquireSingle/inquireSingle.sar"
