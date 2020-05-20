@@ -19,10 +19,6 @@
                "type":"string",
                "maxLength":79
             },
-            "testing_testing":{
-               "type":"string",
-               "maxLength":10
-            },
             "ca_inquire_request":{
                "type":"object",
                "properties":{
@@ -100,7 +96,6 @@
             "ca_request_id",
             "ca_return_code",
             "ca_response_message",
-            "testing_testing",
             "ca_inquire_request"
          ]
       }

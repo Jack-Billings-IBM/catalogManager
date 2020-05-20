@@ -25,13 +25,6 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element name="testing_testing">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:string">
-            <xsd:maxLength value="10"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
       <xsd:element name="ca_inquire_request" type="tns:ca_inquire_request"/>
     </xsd:sequence>
   </xsd:complexType>
@@ -171,6 +164,25 @@
                 <assign value="01INQC">
                     <output httpIn="body" omitFromInterface="true" path="ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </assign>
+                <remove>
+                    <output path="ca_inquire_request/ca_cat_item" shape="1,2,3[15..15]"/>
+                </remove>
+                <remove>
+                    <output httpIn="body" path="ca_inquire_request/ca_item_count" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                </remove>
+                <remove>
+                    <output httpIn="body" path="ca_inquire_request/ca_last_item_ref" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                </remove>
+                <move>
+                    <input httpIn="query" path="QueryParameters/startItemID" shape="1" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                    <output httpIn="body" path="ca_inquire_request/ca_list_start_ref" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                </move>
+                <remove>
+                    <output httpIn="body" path="ca_return_code" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                </remove>
+                <remove>
+                    <output httpIn="body" path="ca_response_message" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                </remove>
             </updates>
         </passthrough>
     </mappingDeclaration>

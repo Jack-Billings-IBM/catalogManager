@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="zosconnect" jsonWrapped="false" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/GET" version="8.0.5.0" xmlns:map="http://www.ibm.com/zosConnect/2.0/mapping/GET">
     <inlinedXMLSchema targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/input/GET"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/input/GET" xmlns:tns="http://www.ibm.com/zosConnect/2.0/mapping/JSON/input/GET">
-  <xsd:element name="DFH0XCP4" type="tns:DFH0XCP4"/>
-  <xsd:complexType name="DFH0XCP4">
+  <xsd:element name="DFH0XCMNOperationResponse" type="tns:DFH0XCMNOperationResponse"/>
+  <xsd:complexType name="DFH0XCMNOperationResponse">
     <xsd:sequence>
-      <xsd:element minOccurs="0" name="CA_REQUEST_ID">
+      <xsd:element name="ca_request_id">
         <xsd:simpleType>
           <xsd:restriction base="xsd:string">
             <xsd:maxLength value="6"/>
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_RETURN_CODE">
+      <xsd:element name="ca_return_code">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -18,19 +18,19 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_RESPONSE_MESSAGE">
+      <xsd:element name="ca_response_message">
         <xsd:simpleType>
           <xsd:restriction base="xsd:string">
             <xsd:maxLength value="79"/>
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_INQUIRE_SINGLE" type="tns:CA_INQUIRE_SINGLE"/>
+      <xsd:element name="ca_inquire_single" type="tns:ca_inquire_single"/>
     </xsd:sequence>
   </xsd:complexType>
-  <xsd:complexType name="CA_INQUIRE_SINGLE">
+  <xsd:complexType name="ca_inquire_single">
     <xsd:sequence>
-      <xsd:element minOccurs="0" name="CA_ITEM_REF_REQ">
+      <xsd:element name="ca_item_ref_req">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -38,12 +38,12 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_SINGLE_ITEM" type="tns:CA_SINGLE_ITEM"/>
+      <xsd:element name="ca_single_item" type="tns:ca_single_item"/>
     </xsd:sequence>
   </xsd:complexType>
-  <xsd:complexType name="CA_SINGLE_ITEM">
+  <xsd:complexType name="ca_single_item">
     <xsd:sequence>
-      <xsd:element minOccurs="0" name="CA_SNGL_ITEM_REF">
+      <xsd:element name="ca_sngl_item_ref">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -51,14 +51,14 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_SNGL_DESCRIPTION">
+      <xsd:element name="ca_sngl_description">
         <xsd:simpleType>
           <xsd:restriction base="xsd:string">
             <xsd:maxLength value="40"/>
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_SNGL_DEPARTMENT">
+      <xsd:element name="ca_sngl_department">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -66,14 +66,14 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="CA_SNGL_COST">
+      <xsd:element name="ca_sngl_cost">
         <xsd:simpleType>
           <xsd:restriction base="xsd:string">
             <xsd:maxLength value="6"/>
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="IN_SNGL_STOCK">
+      <xsd:element name="in_sngl_stock">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -81,7 +81,7 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="ON_SNGL_ORDER">
+      <xsd:element name="on_sngl_order">
         <xsd:simpleType>
           <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
@@ -112,7 +112,7 @@
 
       <xsd:complexType name="BodyType">
         <xsd:sequence>
-          <xsd:element ref="body:DFH0XCP4"/>
+          <xsd:element ref="body:DFH0XCMNOperationResponse"/>
         </xsd:sequence>
       </xsd:complexType>
     </xsd:schema>]]></inlinedXMLSchema>
@@ -123,17 +123,17 @@
         <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/output/GET"/>
     </namespaces>
     <mappingDeclaration name="GET.items.{itemID}">
-        <input namespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/input/GET" path="$rootInput/DFH0XCP4"/>
+        <input namespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/input/GET" path="$rootInput/DFH0XCMNOperationResponse"/>
         <output namespace="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/output/GET" path="$rootOutput/HTTPResponse"/>
         <passthrough>
             <input path="."/>
-            <output path="Body/DFH0XCP4"/>
+            <output path="Body/DFH0XCMNOperationResponse"/>
             <updates>
                 <remove>
-                    <output httpIn="body" path="Body/DFH0XCP4/ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                    <output httpIn="body" path="Body/DFH0XCMNOperationResponse/ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </remove>
                 <remove>
-                    <output httpIn="body" path="Body/DFH0XCP4/ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" path="Body/DFH0XCMNOperationResponse/ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
                 </remove>
             </updates>
         </passthrough>

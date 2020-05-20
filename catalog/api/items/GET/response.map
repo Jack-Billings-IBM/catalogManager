@@ -25,13 +25,6 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element name="testing_testing">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:string">
-            <xsd:maxLength value="10"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
       <xsd:element name="ca_inquire_request" type="tns:ca_inquire_request"/>
     </xsd:sequence>
   </xsd:complexType>
@@ -153,7 +146,7 @@
             <output path="Body/DFH0XCP3OperationResponse"/>
             <updates>
                 <remove>
-                    <output httpIn="body" path="Body/DFH0XCP3OperationResponse/CA_REQUEST_ID" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" path="Body/DFH0XCP3OperationResponse/ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </remove>
             </updates>
         </passthrough>
