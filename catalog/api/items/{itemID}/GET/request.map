@@ -144,20 +144,20 @@
             <output path="."/>
             <updates>
                 <assign value="01INQS">
-                    <output httpIn="body" omitFromInterface="true" path="CA_REQUEST_ID" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" omitFromInterface="true" path="ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </assign>
                 <remove>
-                    <output httpIn="body" path="CA_RETURN_CODE" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                    <output httpIn="body" path="ca_return_code" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
                 </remove>
                 <remove>
-                    <output httpIn="body" path="CA_RESPONSE_MESSAGE" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" path="ca_response_message" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </remove>
                 <remove>
-                    <output path="CA_INQUIRE_SINGLE/CA_SINGLE_ITEM" shape="1,2,3"/>
+                    <output path="ca_inquire_single/ca_single_item" shape="1,2,3"/>
                 </remove>
                 <move>
                     <input httpIn="path" path="PathParameters/itemID" shape="1" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
-                    <output httpIn="body" path="CA_INQUIRE_SINGLE/CA_ITEM_REF_REQ" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                    <output httpIn="body" path="ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
                 </move>
             </updates>
         </passthrough>

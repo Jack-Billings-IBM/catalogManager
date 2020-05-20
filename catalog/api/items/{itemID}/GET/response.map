@@ -130,10 +130,10 @@
             <output path="Body/DFH0XCP4"/>
             <updates>
                 <remove>
-                    <output httpIn="body" path="Body/DFH0XCP4/CA_REQUEST_ID" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" path="Body/DFH0XCP4/ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
                 </remove>
                 <remove>
-                    <output httpIn="body" path="Body/DFH0XCP4/CA_INQUIRE_SINGLE/CA_ITEM_REF_REQ" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                    <output httpIn="body" path="Body/DFH0XCP4/ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </remove>
             </updates>
         </passthrough>
