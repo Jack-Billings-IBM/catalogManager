@@ -1,27 +1,23 @@
 {
   "type" : "object",
   "properties" : {
-    "DFH0XCP1" : {
+    "DFH0XCP4" : {
       "type" : "object",
       "properties" : {
-        "CA_TEST" : {
-          "maxLength" : 10,
-          "type" : "string"
-        },
         "CA_REQUEST_ID" : {
           "maxLength" : 6,
           "type" : "string"
         },
-        "returnCode" : {
+        "CA_RETURN_CODE" : {
           "minimum" : 0,
           "maximum" : 99,
           "type" : "integer"
         },
-        "responseMessage" : {
+        "CA_RESPONSE_MESSAGE" : {
           "maxLength" : 79,
           "type" : "string"
         },
-        "inquireSingle" : {
+        "CA_INQUIRE_SINGLE" : {
           "type" : "object",
           "properties" : {
             "CA_ITEM_REF_REQ" : {
@@ -29,42 +25,38 @@
               "maximum" : 9999,
               "type" : "integer"
             },
-            "item" : {
+            "CA_SINGLE_ITEM" : {
               "type" : "object",
               "properties" : {
-                "itemID" : {
+                "CA_SNGL_ITEM_REF" : {
                   "minimum" : 0,
                   "maximum" : 9999,
                   "type" : "integer"
                 },
-                "description" : {
+                "CA_SNGL_DESCRIPTION" : {
                   "maxLength" : 40,
                   "type" : "string"
                 },
-                "department" : {
+                "CA_SNGL_DEPARTMENT" : {
                   "minimum" : 0,
                   "maximum" : 999,
                   "type" : "integer"
                 },
-                "cost" : {
+                "CA_SNGL_COST" : {
                   "maxLength" : 6,
                   "type" : "string"
                 },
-                "stock" : {
+                "IN_SNGL_STOCK" : {
                   "minimum" : 0,
                   "maximum" : 9999,
                   "type" : "integer"
                 },
-                "onOrder" : {
+                "ON_SNGL_ORDER" : {
                   "minimum" : 0,
                   "maximum" : 999,
                   "type" : "integer"
                 }
               }
-            },
-            "FILL_2" : {
-              "maxLength" : 840,
-              "type" : "string"
             }
           }
         }

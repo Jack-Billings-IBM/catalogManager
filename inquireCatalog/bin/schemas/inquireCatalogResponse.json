@@ -1,13 +1,9 @@
 {
   "type" : "object",
   "properties" : {
-    "DFH0XCP1" : {
+    "DFH0XCP3" : {
       "type" : "object",
       "properties" : {
-        "CA_TEST" : {
-          "maxLength" : 10,
-          "type" : "string"
-        },
         "CA_REQUEST_ID" : {
           "maxLength" : 6,
           "type" : "string"
