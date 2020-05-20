@@ -29,9 +29,9 @@ pipeline {
         
         stage("Test Services") {
             steps {
-                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP1": { "inquireSingle":{ "itemID": 20 } } }\''
-                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP1": {"inquireCatalog": { "startItemID": 20 } } }\''
-                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/placeOrder?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP1": { "orderRequest":{ "itemID": 70, "orderQuantity": 1 } } }\''
+                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP4": { "inquireSingle":{ "itemID": 20 } } }\''
+                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP3": {"inquireCatalog": { "startItemID": 20 } } }\''
+                sh 'curl --location --request POST \'http://10.1.1.2:9080/zosConnect/services/placeOrder?action=invoke\' --fail --header \'Content-Type: application/json\' --data \'{ "DFH0XCP5": { "orderRequest":{ "itemID": 70, "orderQuantity": 1 } } }\''
             }
         }
         
