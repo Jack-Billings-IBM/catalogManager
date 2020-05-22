@@ -95,124 +95,136 @@
   "definitions" : {
     "getInquireCatalog_response_200" : {
       "type" : "object",
+      "required" : [ "DFH0XCMNOperationResponse" ],
       "properties" : {
-        "DFH0XCP3" : {
+        "DFH0XCMNOperationResponse" : {
           "type" : "object",
           "properties" : {
-            "CA_RETURN_CODE" : {
+            "ca_return_code" : {
               "type" : "integer",
               "minimum" : 0,
               "maximum" : 99
             },
-            "CA_RESPONSE_MESSAGE" : {
+            "ca_response_message" : {
               "type" : "string",
               "maxLength" : 79
             },
-            "CA_INQUIRE_REQUEST" : {
+            "ca_inquire_request" : {
               "type" : "object",
               "properties" : {
-                "CA_LIST_START_REF" : {
+                "ca_list_start_ref" : {
                   "type" : "integer",
                   "minimum" : 0,
                   "maximum" : 9999
                 },
-                "CA_LAST_ITEM_REF" : {
+                "ca_last_item_ref" : {
                   "type" : "integer",
                   "minimum" : 0,
                   "maximum" : 9999
                 },
-                "CA_ITEM_COUNT" : {
+                "ca_item_count" : {
                   "type" : "integer",
                   "minimum" : 0,
                   "maximum" : 999
                 },
-                "CA_CAT_ITEM" : {
+                "ca_cat_item" : {
                   "type" : "array",
                   "items" : {
                     "type" : "object",
                     "properties" : {
-                      "CA_ITEM_REF" : {
+                      "ca_item_ref" : {
                         "type" : "integer",
                         "minimum" : 0,
                         "maximum" : 9999
                       },
-                      "CA_DESCRIPTION" : {
+                      "ca_description" : {
                         "type" : "string",
                         "maxLength" : 40
                       },
-                      "CA_DEPARTMENT" : {
+                      "ca_department" : {
                         "type" : "integer",
                         "minimum" : 0,
                         "maximum" : 999
                       },
-                      "CA_COST" : {
+                      "ca_cost" : {
                         "type" : "string",
                         "maxLength" : 6
                       },
-                      "IN_STOCK" : {
+                      "in_stock" : {
                         "type" : "integer",
                         "minimum" : 0,
                         "maximum" : 9999
                       },
-                      "ON_ORDER" : {
+                      "on_order" : {
                         "type" : "integer",
                         "minimum" : 0,
                         "maximum" : 999
                       }
-                    }
+                    },
+                    "required" : [ "ca_cost", "ca_department", "ca_description", "ca_item_ref", "in_stock", "on_order" ]
                   },
                   "maxItems" : 15,
                   "minItems" : 15
                 }
-              }
+              },
+              "required" : [ "ca_cat_item", "ca_item_count", "ca_last_item_ref", "ca_list_start_ref" ]
             }
-          }
+          },
+          "required" : [ "ca_inquire_request", "ca_response_message", "ca_return_code" ]
         }
-      }
+      },
+      "description" : "Response schema for the DFH0XCMN JSON interface"
     },
     "postPlaceOrder_request" : {
       "type" : "object",
+      "required" : [ "DFH0XCMNOperation" ],
       "properties" : {
-        "DFH0XCP5" : {
+        "DFH0XCMNOperation" : {
           "type" : "object",
           "properties" : {
-            "CA_ORDER_REQUEST" : {
+            "ca_order_request" : {
               "type" : "object",
               "properties" : {
-                "CA_ITEM_REF_NUMBER" : {
+                "ca_item_ref_number" : {
                   "type" : "integer",
                   "minimum" : 0,
                   "maximum" : 9999
                 },
-                "CA_QUANTITY_REQ" : {
+                "ca_quantity_req" : {
                   "type" : "integer",
                   "minimum" : 0,
                   "maximum" : 999
                 }
-              }
+              },
+              "required" : [ "ca_item_ref_number", "ca_quantity_req" ]
             }
-          }
+          },
+          "required" : [ "ca_order_request" ]
         }
-      }
+      },
+      "description" : "Request schema for the DFH0XCMN JSON interface"
     },
     "postPlaceOrder_response_200" : {
       "type" : "object",
+      "required" : [ "DFH0XCMNOperationResponse" ],
       "properties" : {
-        "DFH0XCP5" : {
+        "DFH0XCMNOperationResponse" : {
           "type" : "object",
           "properties" : {
-            "CA_RETURN_CODE" : {
+            "ca_return_code" : {
               "type" : "integer",
               "minimum" : 0,
               "maximum" : 99
             },
-            "CA_RESPONSE_MESSAGE" : {
+            "ca_response_message" : {
               "type" : "string",
               "maxLength" : 79
             }
-          }
+          },
+          "required" : [ "ca_response_message", "ca_return_code" ]
         }
-      }
+      },
+      "description" : "Response schema for the DFH0XCMN JSON interface"
     },
     "getInquireSingle_response_200" : {
       "type" : "object",
