@@ -13,9 +13,9 @@ pipeline {
         }
         stage('Ceate sar File') {
             steps {
-                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=inquireSingle/inquireSingle.sar"
-                sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=inquireCatalog/inquireCatalog.sar"
-                sh "zconbt/bin/zconbt --properties=properties/placeOrder.properties --file=placeOrder/placeOrder.sar"
+                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
+                sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
+                sh "zconbt/bin/zconbt --properties=properties/placeOrder.properties --file=archives/placeOrder.sar"
             }
         }
         
