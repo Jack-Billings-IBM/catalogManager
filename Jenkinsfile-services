@@ -14,7 +14,6 @@ pipeline {
         stage('Update Copybooks on z/OS') {
             steps {
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: true, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: "'DFH540.CICS.SDFHSAMP'", remoteDirectorySDF: false, removePrefix: 'copybooks', sourceFiles: 'copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
-                sleep(time:5,unit:"SECONDS")
             }
         }
         stage('Ceate sar File') {
@@ -28,6 +27,7 @@ pipeline {
         stage("Deploy sar Files") {
             steps {
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/*.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
+                sleep(time:5,unit:"SECONDS")            
             }
         }
         
