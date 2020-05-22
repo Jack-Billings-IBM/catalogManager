@@ -5,6 +5,11 @@ pipeline {
     tools {
         jdk "JDK8"
     }
+    environment {
+        SINGLE = '{"DFH0XCMNOperation":{"ca_request_id":"01INQS","ca_inquire_single":{"ca_item_ref_req":20}}}'
+        CATALOG = '{"DFH0XCMNOperation":{"ca_request_id":"01INQC","ca_inquire_request":{"ca_list_start_ref":20}}}'
+        ORDER = '{"DFH0XCMNOperation":{"ca_request_id":"01ORDR","ca_order_request":{"ca_item_ref_number":20,"ca_quantity_req":1}}}'
+    }
     stages {
         stage('Update Copybooks on z/OS') {
             steps {
@@ -27,9 +32,9 @@ pipeline {
         
         stage("Test Services") {
             steps {
-                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data \'{"DFH0XCMNOperation": {"ca_request_id": "01INQS","ca_inquire_single": {"ca_item_ref_req": 20}}}\' '
-                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data \'{"DFH0XCMNOperation": {"ca_request_id": "01INQC","ca_inquire_request": {"ca_list_start_ref": 20}}}\' '
-                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/placeOrder?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data \'{"DFH0XCMNOperation": {"ca_request_id": "01ORDR","ca_order_request": {"ca_item_ref_number": 20,"ca_quantity_req": 1}}}\' '
+                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} '
+                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} '
+                sh 'curl --location --request POST "http://10.1.1.2:9080/zosConnect/services/placeOrder?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${ORDER} '
             }
         }
         
