@@ -60,13 +60,6 @@
           </xsd:restriction>
         </xsd:simpleType>
       </xsd:element>
-      <xsd:element minOccurs="0" name="FILL_0">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:string">
-            <xsd:maxLength value="888"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
     </xsd:sequence>
   </xsd:complexType>
 </xsd:schema>]]></inlinedXMLSchema>
@@ -134,9 +127,6 @@
                 </remove>
                 <remove>
                     <output httpIn="body" path="CA_RESPONSE_MESSAGE" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
-                </remove>
-                <remove>
-                    <output httpIn="body" path="CA_ORDER_REQUEST/FILL_0" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </remove>
             </updates>
         </passthrough>

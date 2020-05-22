@@ -63,7 +63,7 @@
                         </marshaller>
                         <applicationDatatype datatype="DECIMAL" precision="3" scale="0"/>
                     </field>
-                    <field name="FILL_0" originalName="FILL_0" included="Y" path="DFH0XCP5.CA_ORDER_REQUEST.FILL_0">
+                    <field name="FILL_0" originalName="FILL_0" included="N" path="DFH0XCP5.CA_ORDER_REQUEST.FILL_0">
                         <startPos>111</startPos>
                         <bytes>888</bytes>
                         <maxBytes>888</maxBytes>

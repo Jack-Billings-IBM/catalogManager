@@ -146,6 +146,10 @@
                 <assign value="01INQS">
                     <output httpIn="body" omitFromInterface="true" path="ca_request_id" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
                 </assign>
+                <move>
+                    <input httpIn="path" path="PathParameters/itemID" shape="1" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
+                    <output httpIn="body" path="ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
+                </move>
                 <remove>
                     <output httpIn="body" path="ca_return_code" shape="1,2" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
                 </remove>
@@ -155,10 +159,6 @@
                 <remove>
                     <output path="ca_inquire_single/ca_single_item" shape="1,2,3"/>
                 </remove>
-                <move>
-                    <input httpIn="path" path="PathParameters/itemID" shape="1" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:string"/>
-                    <output httpIn="body" path="ca_inquire_single/ca_item_ref_req" shape="1,2,3" xsdBuiltInOrDerivedSimpleType="http://www.w3.org/2001/XMLSchema:integer"/>
-                </move>
             </updates>
         </passthrough>
     </mappingDeclaration>

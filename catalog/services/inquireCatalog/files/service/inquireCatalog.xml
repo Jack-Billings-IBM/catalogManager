@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <service xmlns:ns2="http://www.ibm.com/ims/Transaction">
     <shallow>true</shallow>
-    <serviceName>placeOrder</serviceName>
+    <serviceName>inquireCatalog</serviceName>
     <serviceType>ims-rest</serviceType>
     <resourceType>TRAN</resourceType>
     <status>1</status>
     <conversionType>3</conversionType>
     <dataProtocol>0</dataProtocol>
     <serviceInputInterface>
-        <metadataName>placeOrder-output.si</metadataName>
+        <metadataName>inquireCatalog-output.si</metadataName>
         <serviceInterface>
             <interface>
                 <segment segmentName="COMMAREA">
-                    <interfaceField included="Y" fieldName="DFH0XCP5">
+                    <interfaceField included="Y" fieldName="DFH0XCP3">
                         <field included="Y" fieldName="CA_REQUEST_ID"/>
                         <field included="Y" fieldName="CA_RETURN_CODE"/>
                         <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
-                        <field included="Y" fieldName="CA_ORDER_REQUEST">
-                            <field included="Y" fieldName="CA_USERID"/>
-                            <field included="Y" fieldName="CA_CHARGE_DEPT"/>
-                            <field included="Y" fieldName="CA_ITEM_REF_NUMBER"/>
-                            <field included="Y" fieldName="CA_QUANTITY_REQ"/>
-                            <field included="N" fieldName="FILL_0"/>
+                        <field included="Y" fieldName="CA_INQUIRE_REQUEST">
+                            <field included="Y" fieldName="CA_LIST_START_REF"/>
+                            <field included="Y" fieldName="CA_LAST_ITEM_REF"/>
+                            <field included="Y" fieldName="CA_ITEM_COUNT"/>
+                            <field included="Y" fieldName="CA_CAT_ITEM">
+<field included="Y" fieldName="CA_ITEM_REF"/>
+<field included="Y" fieldName="CA_DESCRIPTION"/>
+<field included="Y" fieldName="CA_DEPARTMENT"/>
+<field included="Y" fieldName="CA_COST"/>
+<field included="Y" fieldName="IN_STOCK"/>
+<field included="Y" fieldName="ON_ORDER"/>
+                            </field>
                         </field>
                     </interfaceField>
                 </segment>
@@ -30,20 +36,26 @@
         <version>0</version>
     </serviceInputInterface>
     <serviceOutputInterface>
-        <metadataName>placeOrder-output.si</metadataName>
+        <metadataName>inquireCatalog-output.si</metadataName>
         <serviceInterface>
             <interface>
                 <segment segmentName="COMMAREA">
-                    <interfaceField included="Y" fieldName="DFH0XCP5">
+                    <interfaceField included="Y" fieldName="DFH0XCP3">
                         <field included="Y" fieldName="CA_REQUEST_ID"/>
                         <field included="Y" fieldName="CA_RETURN_CODE"/>
                         <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
-                        <field included="Y" fieldName="CA_ORDER_REQUEST">
-                            <field included="Y" fieldName="CA_USERID"/>
-                            <field included="Y" fieldName="CA_CHARGE_DEPT"/>
-                            <field included="Y" fieldName="CA_ITEM_REF_NUMBER"/>
-                            <field included="Y" fieldName="CA_QUANTITY_REQ"/>
-                            <field included="N" fieldName="FILL_0"/>
+                        <field included="Y" fieldName="CA_INQUIRE_REQUEST">
+                            <field included="Y" fieldName="CA_LIST_START_REF"/>
+                            <field included="Y" fieldName="CA_LAST_ITEM_REF"/>
+                            <field included="Y" fieldName="CA_ITEM_COUNT"/>
+                            <field included="Y" fieldName="CA_CAT_ITEM">
+<field included="Y" fieldName="CA_ITEM_REF"/>
+<field included="Y" fieldName="CA_DESCRIPTION"/>
+<field included="Y" fieldName="CA_DEPARTMENT"/>
+<field included="Y" fieldName="CA_COST"/>
+<field included="Y" fieldName="IN_STOCK"/>
+<field included="Y" fieldName="ON_ORDER"/>
+                            </field>
                         </field>
                     </interfaceField>
                 </segment>

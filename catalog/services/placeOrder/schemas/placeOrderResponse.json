@@ -37,10 +37,6 @@
               "minimum" : 0,
               "maximum" : 999,
               "type" : "integer"
-            },
-            "FILL_0" : {
-              "maxLength" : 888,
-              "type" : "string"
             }
           }
         }
