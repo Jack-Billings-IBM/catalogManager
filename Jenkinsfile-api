@@ -6,7 +6,7 @@ pipeline {
         jdk "JDK8"
     }  
     environment {
-        PAYLOAD = '{"DFH0XCP1":{"CA_ORDER_REQUEST":{"CA_ITEM_REF_NUMBER":40,"CA_QUANTITY_REQ":1}}}'
+        PAYLOAD = '{"DFH0XCMNOperation":{"ca_order_request":{"ca_item_ref_number":40,"ca_quantity_req":1}}}'
     }
     stages {
         stage("Test API") {
