@@ -13,11 +13,11 @@
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP4">
-                        <field included="Y" fieldName="CA_REQUEST_ID"/>
+                        <field included="Y" fieldName="CA_REQUEST_ID" isHex="false"/>
                         <field included="Y" fieldName="CA_RETURN_CODE"/>
                         <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
-                        <field included="Y" fieldName="CA_INQUIRE_SINGLE">
-                            <field included="Y" fieldName="CA_ITEM_REF_REQ"/>
+                        <field included="Y" fieldName="inquireSingle">
+                            <field included="Y" fieldName="itemID" isHex="false"/>
                             <field included="N" fieldName="FILL_0"/>
                             <field included="N" fieldName="FILL_1"/>
                             <field included="Y" fieldName="CA_SINGLE_ITEM">
@@ -41,11 +41,11 @@
             <interface>
                 <segment segmentName="COMMAREA">
                     <interfaceField included="Y" fieldName="DFH0XCP4">
-                        <field included="Y" fieldName="CA_REQUEST_ID"/>
+                        <field included="Y" fieldName="CA_REQUEST_ID" isHex="false"/>
                         <field included="Y" fieldName="CA_RETURN_CODE"/>
                         <field included="Y" fieldName="CA_RESPONSE_MESSAGE"/>
-                        <field included="Y" fieldName="CA_INQUIRE_SINGLE">
-                            <field included="Y" fieldName="CA_ITEM_REF_REQ"/>
+                        <field included="Y" fieldName="inquireSingle">
+                            <field included="Y" fieldName="itemID" isHex="false"/>
                             <field included="N" fieldName="FILL_0"/>
                             <field included="N" fieldName="FILL_1"/>
                             <field included="Y" fieldName="CA_SINGLE_ITEM">
