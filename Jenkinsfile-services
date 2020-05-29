@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Update Copybooks on z/OS') {
             steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: true, cleanRemote: true, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: "'DFH540.CICS.SDFHSAMP'", remoteDirectorySDF: false, removePrefix: 'copybooks', sourceFiles: 'copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: true, cleanRemote: true, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: "'DFH540.CICS.SDFHSAMP'", remoteDirectorySDF: false, removePrefix: '${WORKSPACE}/copybooks', sourceFiles: '{$WORKSPACE}/copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
             }
         }
         stage('Ceate sar File') {
