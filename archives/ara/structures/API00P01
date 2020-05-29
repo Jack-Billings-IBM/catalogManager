@@ -6,298 +6,118 @@
       * 
       *  
       *      06 RespBody.
+      *        09 DFH0XCMNOperationResponse.
       * 
-      *  
-      * JSON schema keyword 'RespBody->DFH0XCP1' is optional. The
-      *  number of instances present is indicated in field
-      *  'DFH0XCP12-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *        09 DFH0XCP12-num                 PIC S9(9) COMP-5 SYNC.
-      * 
-      *  
-      *        09 DFH0XCP1.
-      * 
-      *  
-      * JSON schema keyword 'RespBody->DFH0XCP1->CA_TEST' is optional.
-      *  The number of instances present is indicated in field
-      *  'CA-TEST-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *          12 CA-TEST-num                   PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *          12 CA-TEST.
-      * 
-      * Comments for field 'CA-TEST2':
+      * Comments for field 'ca-return-code':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_TEST'.
-      * JSON schema type: 'string'.
-      * JSON schema keyword 'minLength' value: '0'.
-      * JSON schema keyword 'maxLength' value: '10'.
-      * This field contains a varying length array of characters or
-      *  binary data.
-      *            15 CA-TEST2-length               PIC S9999 COMP-5
-      *  SYNC.
-      *            15 CA-TEST2                      PIC X(10).
-      * 
-      *  
-      * JSON schema keyword 'RespBody->DFH0XCP1->CA_RETURN_CODE' is
-      *  optional. The number of instances present is indicated in
-      *  field 'CA-RETURN-CODE-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *          12 CA-RETURN-CODE-num            PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'CA-RETURN-CODE':
-      * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_RETURN_CODE'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_return_code'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '99'.
       * JSON schema keyword 'minimum' value: '0'.
-      *          12 CA-RETURN-CODE                PIC 9(2) DISPLAY.
+      *          12 ca-return-code                PIC 9(2) DISPLAY.
       * 
-      *  
-      * JSON schema keyword 'RespBody->DFH0XCP1->CA_RESPONSE_MESSAGE'
-      *  is optional. The number of instances present is indicated in
-      *  field 'CA-RESPONSE-MESSAGE-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *          12 CA-RESPONSE-MESSAGE-num       PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *          12 CA-RESPONSE-MESSAGE.
-      * 
-      * Comments for field 'CA-RESPONSE-MESSAGE2':
+      * Comments for field 'ca-response-message':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_RESPONSE_MESSAGE'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_response_message'.
       * JSON schema type: 'string'.
       * JSON schema keyword 'minLength' value: '0'.
       * JSON schema keyword 'maxLength' value: '79'.
       * This field contains a varying length array of characters or
       *  binary data.
-      *            15 CA-RESPONSE-MESSAGE2-length   PIC S9999 COMP-5
+      *          12 ca-response-message-length    PIC S9999 COMP-5
       *  SYNC.
-      *            15 CA-RESPONSE-MESSAGE2          PIC X(79).
+      *          12 ca-response-message           PIC X(79).
+      *          12 ca-inquire-request.
       * 
-      *  
-      * JSON schema keyword 'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST'
-      *  is optional. The number of instances present is indicated in
-      *  field 'CA-INQUIRE-REQUEST2-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *          12 CA-INQUIRE-REQUEST2-num       PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *          12 CA-INQUIRE-REQUEST.
-      * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_LIST_START_REF'
-      *  is optional. The number of instances present is indicated in
-      *  field 'CA-LIST-START-REF-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *            15 CA-LIST-START-REF-num         PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'CA-LIST-START-REF':
+      * Comments for field 'ca-list-start-ref':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_LIST_START_REF'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_l
+      * ist_start_ref'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '9999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *            15 CA-LIST-START-REF             PIC 9(4) DISPLAY.
+      *            15 ca-list-start-ref             PIC 9(4) DISPLAY.
       * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_LAST_ITEM_REF' is
-      *  optional. The number of instances present is indicated in
-      *  field 'CA-LAST-ITEM-REF-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *            15 CA-LAST-ITEM-REF-num          PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'CA-LAST-ITEM-REF':
+      * Comments for field 'ca-last-item-ref':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_LAST_ITEM_REF'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_l
+      * ast_item_ref'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '9999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *            15 CA-LAST-ITEM-REF              PIC 9(4) DISPLAY.
+      *            15 ca-last-item-ref              PIC 9(4) DISPLAY.
       * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_ITEM_COUNT' is
-      *  optional. The number of instances present is indicated in
-      *  field 'CA-ITEM-COUNT-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *            15 CA-ITEM-COUNT-num             PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'CA-ITEM-COUNT':
+      * Comments for field 'ca-item-count':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_ITEM_COUNT'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_i
+      * tem_count'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *            15 CA-ITEM-COUNT                 PIC 9(3) DISPLAY.
+      *            15 ca-item-count                 PIC 9(3) DISPLAY.
+      *            15 ca-cat-item OCCURS 15.
       * 
-      *  
-      * Array 'CA-CAT-ITEM2' contains a variable number of instances
-      *  of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM'. The
-      *  number of instances present is indicated in field
-      *  'CA-CAT-ITEM2-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '15' instance(s).
-      *            15 CA-CAT-ITEM2-num              PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *            15 CA-CAT-ITEM OCCURS 15.
-      * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_ITEM_
-      * REF' is optional. The number of instances present is indicated
-      *  in field 'CA-ITEM-REF-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 CA-ITEM-REF-num               PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'CA-ITEM-REF':
+      * Comments for field 'ca-item-ref':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_ITEM_
-      * REF'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->ca_item_ref'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '9999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *              18 CA-ITEM-REF                   PIC 9(4) DISPLAY.
+      *              18 ca-item-ref                   PIC 9(4) DISPLAY.
       * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_DESCR
-      * IPTION' is optional. The number of instances present is
-      *  indicated in field 'CA-DESCRIPTION-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 CA-DESCRIPTION-num            PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *              18 CA-DESCRIPTION.
-      * 
-      * Comments for field 'CA-DESCRIPTION2':
+      * Comments for field 'ca-description':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_DESCR
-      * IPTION'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->ca_description'.
       * JSON schema type: 'string'.
       * JSON schema keyword 'minLength' value: '0'.
       * JSON schema keyword 'maxLength' value: '40'.
       * This field contains a varying length array of characters or
       *  binary data.
-      *                21 CA-DESCRIPTION2-length        PIC S9999
-      *  COMP-5 SYNC.
-      *                21 CA-DESCRIPTION2               PIC X(40).
-      * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_DEPAR
-      * TMENT' is optional. The number of instances present is
-      *  indicated in field 'CA-DEPARTMENT-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 CA-DEPARTMENT-num             PIC S9(9) COMP-5
+      *              18 ca-description-length         PIC S9999 COMP-5
       *  SYNC.
+      *              18 ca-description                PIC X(40).
       * 
-      *  
-      * Comments for field 'CA-DEPARTMENT':
+      * Comments for field 'ca-department':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_DEPAR
-      * TMENT'.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->ca_department'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *              18 CA-DEPARTMENT                 PIC 9(3) DISPLAY.
+      *              18 ca-department                 PIC 9(3) DISPLAY.
       * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_COST'
-      *  is optional. The number of instances present is indicated in
-      *  field 'CA-COST-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 CA-COST-num                   PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      *              18 CA-COST.
-      * 
-      * Comments for field 'CA-COST2':
+      * Comments for field 'ca-cost':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->CA_COST'
-      * .
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->ca_cost'.
       * JSON schema type: 'string'.
       * JSON schema keyword 'minLength' value: '0'.
       * JSON schema keyword 'maxLength' value: '6'.
       * This field contains a varying length array of characters or
       *  binary data.
-      *                21 CA-COST2-length               PIC S9999
-      *  COMP-5 SYNC.
-      *                21 CA-COST2                      PIC X(6).
-      * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->IN_STOCK
-      * ' is optional. The number of instances present is indicated in
-      *  field 'IN-STOCK-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 IN-STOCK-num                  PIC S9(9) COMP-5
+      *              18 ca-cost-length                PIC S9999 COMP-5
       *  SYNC.
+      *              18 ca-cost                       PIC X(6).
       * 
-      *  
-      * Comments for field 'IN-STOCK':
+      * Comments for field 'in-stock':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->IN_STOCK
-      * '.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->in_stock'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '9999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *              18 IN-STOCK                      PIC 9(4) DISPLAY.
+      *              18 in-stock                      PIC 9(4) DISPLAY.
       * 
-      *  
-      * JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->ON_ORDER
-      * ' is optional. The number of instances present is indicated in
-      *  field 'ON-ORDER-num'.
-      * There should be at least '0' instance(s).
-      * There should be at most '1' instance(s).
-      *              18 ON-ORDER-num                  PIC S9(9) COMP-5
-      *  SYNC.
-      * 
-      *  
-      * Comments for field 'ON-ORDER':
+      * Comments for field 'on-order':
       * This field represents the value of JSON schema keyword
-      *  'RespBody->DFH0XCP1->CA_INQUIRE_REQUEST->CA_CAT_ITEM->ON_ORDER
-      * '.
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_request->ca_c
+      * at_item->on_order'.
       * JSON schema type: 'integer'.
       * JSON schema keyword 'maximum' value: '999'.
       * JSON schema keyword 'minimum' value: '0'.
-      *              18 ON-ORDER                      PIC 9(3) DISPLAY.
+      *              18 on-order                      PIC 9(3) DISPLAY.
       * 
       * Comments for field 'filler':
       * This is a filler entry to ensure the correct padding for a
@@ -309,91 +129,25 @@
       * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
              06 RespBody.
- 
-               09 DFH0XCP12-num                 PIC S9(9) COMP-5 SYNC.
- 
-               09 DFH0XCP1.
- 
-                 12 CA-TEST-num                   PIC S9(9) COMP-5
+               09 DFH0XCMNOperationResponse.
+                 12 ca-return-code                PIC 9(2) DISPLAY.
+                 12 ca-response-message-length    PIC S9999 COMP-5
             SYNC.
- 
-                 12 CA-TEST.
-                   15 CA-TEST2-length               PIC S9999 COMP-5
+                 12 ca-response-message           PIC X(79).
+                 12 ca-inquire-request.
+                   15 ca-list-start-ref             PIC 9(4) DISPLAY.
+                   15 ca-last-item-ref              PIC 9(4) DISPLAY.
+                   15 ca-item-count                 PIC 9(3) DISPLAY.
+                   15 ca-cat-item OCCURS 15.
+                     18 ca-item-ref                   PIC 9(4) DISPLAY.
+                     18 ca-description-length         PIC S9999 COMP-5
             SYNC.
-                   15 CA-TEST2                      PIC X(10).
- 
-                 12 CA-RETURN-CODE-num            PIC S9(9) COMP-5
+                     18 ca-description                PIC X(40).
+                     18 ca-department                 PIC 9(3) DISPLAY.
+                     18 ca-cost-length                PIC S9999 COMP-5
             SYNC.
- 
-                 12 CA-RETURN-CODE                PIC 9(2) DISPLAY.
- 
-                 12 CA-RESPONSE-MESSAGE-num       PIC S9(9) COMP-5
-            SYNC.
- 
-                 12 CA-RESPONSE-MESSAGE.
-                   15 CA-RESPONSE-MESSAGE2-length   PIC S9999 COMP-5
-            SYNC.
-                   15 CA-RESPONSE-MESSAGE2          PIC X(79).
- 
-                 12 CA-INQUIRE-REQUEST2-num       PIC S9(9) COMP-5
-            SYNC.
- 
-                 12 CA-INQUIRE-REQUEST.
- 
-                   15 CA-LIST-START-REF-num         PIC S9(9) COMP-5
-            SYNC.
- 
-                   15 CA-LIST-START-REF             PIC 9(4) DISPLAY.
- 
-                   15 CA-LAST-ITEM-REF-num          PIC S9(9) COMP-5
-            SYNC.
- 
-                   15 CA-LAST-ITEM-REF              PIC 9(4) DISPLAY.
- 
-                   15 CA-ITEM-COUNT-num             PIC S9(9) COMP-5
-            SYNC.
- 
-                   15 CA-ITEM-COUNT                 PIC 9(3) DISPLAY.
- 
-                   15 CA-CAT-ITEM2-num              PIC S9(9) COMP-5
-            SYNC.
- 
-                   15 CA-CAT-ITEM OCCURS 15.
- 
-                     18 CA-ITEM-REF-num               PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 CA-ITEM-REF                   PIC 9(4) DISPLAY.
- 
-                     18 CA-DESCRIPTION-num            PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 CA-DESCRIPTION.
-                       21 CA-DESCRIPTION2-length        PIC S9999
-            COMP-5 SYNC.
-                       21 CA-DESCRIPTION2               PIC X(40).
- 
-                     18 CA-DEPARTMENT-num             PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 CA-DEPARTMENT                 PIC 9(3) DISPLAY.
- 
-                     18 CA-COST-num                   PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 CA-COST.
-                       21 CA-COST2-length               PIC S9999
-            COMP-5 SYNC.
-                       21 CA-COST2                      PIC X(6).
- 
-                     18 IN-STOCK-num                  PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 IN-STOCK                      PIC 9(4) DISPLAY.
- 
-                     18 ON-ORDER-num                  PIC S9(9) COMP-5
-            SYNC.
- 
-                     18 ON-ORDER                      PIC 9(3) DISPLAY.
+                     18 ca-cost                       PIC X(6).
+                     18 in-stock                      PIC 9(4) DISPLAY.
+                     18 on-order                      PIC 9(3) DISPLAY.
                      18 filler                        PIC X(1).
  
