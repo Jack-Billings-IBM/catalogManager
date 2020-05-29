@@ -21,15 +21,16 @@ pipeline {
                 sh "zconbt/bin/zconbt --properties=${WORKSPACE}/properties/inquireSingle.properties --file=${WORKSPACE}/archives/inquireSingle.sar"
                 sh "zconbt/bin/zconbt --properties=${WORKSPACE}/properties/inquireCatalog.properties --file=${WORKSPACE}/archives/inquireCatalog.sar"
                 sh "zconbt/bin/zconbt --properties=${WORKSPACE}/properties/placeOrder.properties --file=${WORKSPACE}/archives/placeOrder.sar"
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: '${WORKSPACE}/archives', sourceFiles: '${WORKSPACE}/archives/*.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
+                sleep(time:10,unit:"SECONDS") 
             }
         }
         
-        stage("Deploy sar Files") {
-            steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: '${WORKSPACE}/archives', sourceFiles: '${WORKSPACE}/archives/*.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
-                sleep(time:10,unit:"SECONDS")            
-            }
-        }
+       // stage("Deploy sar Files") {
+        //    steps {
+                           
+         //   }
+      //  }
         
         stage("Test Services") {
             steps {
