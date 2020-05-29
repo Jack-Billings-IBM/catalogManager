@@ -21,7 +21,7 @@ pipeline {
                 sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
                 sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
                 sh "zconbt/bin/zconbt --properties=properties/placeOrder.properties --file=archives/placeOrder.sar"
-                sleep(time:20,unit:"SECONDS") 
+                sleep(time:10,unit:"SECONDS") 
             }
         }
         
