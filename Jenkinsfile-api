@@ -28,6 +28,7 @@ pipeline {
                 sh "zconbt/bin/zconbt --properties=properties/catalog_ara.properties --file=archives/ara/catalog.ara"
             }
         }
+        
         stage("Push to GitHub") {
             steps {
                 sh "git add -A"
@@ -43,5 +44,14 @@ pipeline {
                 }
             }
         }
+    }
+}
+
+node('nodejs') {
+    stage('build') {
+        openshiftBuild(buildConfig: 'egui', showBuildLogs: 'true')
+    }
+    stage('deploy') {
+        openshiftDeploy(deploymentConfig: 'egui')
     }
 }
