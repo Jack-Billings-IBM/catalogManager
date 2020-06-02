@@ -48,10 +48,10 @@ pipeline {
 }
 
 node('nodejs') {
-    stage('build') {
+    stage('Build egui App') {
         openshiftBuild(buildConfig: 'egui', showBuildLogs: 'true')
     }
-    stage('deploy') {
+    stage('Deploy egui App') {
         openshiftDeploy(deploymentConfig: 'egui')
     }
 }
