@@ -265,14 +265,9 @@
                     "ca_sngl_cost" : {
                       "type" : "string",
                       "maxLength" : 6
-                    },
-                    "on_sngl_order" : {
-                      "type" : "integer",
-                      "minimum" : 0,
-                      "maximum" : 999
                     }
                   },
-                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref", "on_sngl_order" ]
+                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref" ]
                 }
               },
               "required" : [ "ca_single_item" ]
