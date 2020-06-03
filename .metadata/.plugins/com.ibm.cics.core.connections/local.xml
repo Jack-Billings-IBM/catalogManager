@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><connections>
-    <type type="com.ibm.zosconnect.ui.connections.type.adminapi">
-        <configID ALLOW_MULTIPLE_CONNECTIONS="" ATTEMPT_SECURE="false" CONNECT_TIMEOUT="30000" READ_TIMEOUT="30000" configID="1583361450986-0" host="10.1.1.2" name="10:9080" port="9080" ssl_confirmed="true"/>
-    </type>
-</connections>

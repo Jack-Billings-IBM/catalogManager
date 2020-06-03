@@ -1,3 +1,0 @@
-# 
-#Thu Mar 05 10:25:53 CST 2020
-org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8"?><sourceLookupDirector>\n<sourceContainers duplicates\="false">\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot;?&gt;&lt;project referencedProjects\=&quot;true&quot;/&gt;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\n</sourceContainers>\n</sourceLookupDirector>
