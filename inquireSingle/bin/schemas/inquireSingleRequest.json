@@ -45,16 +45,6 @@
                 "CA_SNGL_COST" : {
                   "maxLength" : 6,
                   "type" : "string"
-                },
-                "IN_SNGL_STOCK" : {
-                  "minimum" : 0,
-                  "maximum" : 9999,
-                  "type" : "integer"
-                },
-                "ON_SNGL_ORDER" : {
-                  "minimum" : 0,
-                  "maximum" : 999,
-                  "type" : "integer"
                 }
               }
             }
