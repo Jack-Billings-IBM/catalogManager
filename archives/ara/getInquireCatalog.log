@@ -1,10 +1,10 @@
 Log file from: DFHJS2LS
 XSDBind file: null
 Mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
-Created: 03 Jun 2020 20:18
+Created: 09 Jun 2020 18:47
 Release: 
 Build-Level: COM2-201910171409
-Platform: Linux version 3.10.0-1127.8.2.el7.x86_64  (architecture i386)
+Platform: Linux version 3.10.0-1127.10.1.el7.x86_64  (architecture i386)
 Java version: null
 Target Platform: null
 --------------------------
@@ -38,8 +38,8 @@ DFHPI9609I Parameter "HTTPPROXY-PASSWORD" has value "null".
 DFHPI9609I Parameter "INLINE-MAXOCCURS-LIMIT" has value "32767".
 DFHPI9609I Parameter "JSON-SCHEMA" has value "null".
 DFHPI9609I Parameter "JSON-SCHEMA-CODEPAGE" has value "null".
-DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/3684240134796433039/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
-DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/3684240134796433039/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
+DFHPI9609I Parameter "JSON-SCHEMA-REQUEST" has value "/tmp/9122257367487120794/services/getInquireCatalog/schemas/getInquireCatalog_request.json".
+DFHPI9609I Parameter "JSON-SCHEMA-RESPONSE" has value "/tmp/9122257367487120794/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json".
 DFHPI9609I Parameter "JSON-SCHEMA-RESTFUL" has value "null".
 DFHPI9609I Parameter "JSONTRANSFRM" has value "null".
 DFHPI9609I Parameter "LANG" has value "COBOL".
@@ -79,7 +79,7 @@ DFHPI9609I Parameter "VENDOR-CONVERTER-NAME" has value "null".
 DFHPI9609I Parameter "VENDOR-APP-INTERFACE-LENGTH" has value "null".
 DFHPI9609I Parameter "VENDOR-META-DATA" has value "null".
 DFHPI9609I Parameter "WSADDR-EPR-ANY" has value "false".
-DFHPI9609I Parameter "WSBIND" has value "/tmp/3684240134796433039/ws-binds/getInquireCatalog.wsbind".
+DFHPI9609I Parameter "WSBIND" has value "/tmp/9122257367487120794/ws-binds/getInquireCatalog.wsbind".
 DFHPI9609I Parameter "WSDL" has value "null".
 DFHPI9609I Parameter "WSDLCP" has value "null".
 DFHPI9609I Parameter "WSDL-NAMESPACE" has value "null".
@@ -112,7 +112,7 @@ DFHPI9609I Parameter "INTEGER-AS-PIC9" has value "null".
 DFHPI9609I Parameter "NO-ARRAY-NAME-INDEXING" has value "null".
 DFHPI9609I Parameter "HYPHENS-AS-UNDERSCORES" has value "null".
 
-Processing JSON Schema file: /tmp/3684240134796433039/services/getInquireCatalog/schemas/getInquireCatalog_request.json
+Processing JSON Schema file: /tmp/9122257367487120794/services/getInquireCatalog/schemas/getInquireCatalog_request.json
 ----------------------------
 
 {
@@ -306,14 +306,9 @@ Processing JSON Schema file: /tmp/3684240134796433039/services/getInquireCatalog
                     "ca_sngl_cost" : {
                       "type" : "string",
                       "maxLength" : 6
-                    },
-                    "on_sngl_order" : {
-                      "type" : "integer",
-                      "minimum" : 0,
-                      "maximum" : 999
                     }
                   },
-                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref", "on_sngl_order" ]
+                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref" ]
                 }
               },
               "required" : [ "ca_single_item" ]
@@ -328,7 +323,7 @@ Processing JSON Schema file: /tmp/3684240134796433039/services/getInquireCatalog
 }
 
 
-Processing JSON Schema file: /tmp/3684240134796433039/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
+Processing JSON Schema file: /tmp/9122257367487120794/services/getInquireCatalog/schemas/getInquireCatalog_200_response.json
 ----------------------------
 
 {
@@ -593,14 +588,9 @@ Processing JSON Schema file: /tmp/3684240134796433039/services/getInquireCatalog
                     "ca_sngl_cost" : {
                       "type" : "string",
                       "maxLength" : 6
-                    },
-                    "on_sngl_order" : {
-                      "type" : "integer",
-                      "minimum" : 0,
-                      "maximum" : 999
                     }
                   },
-                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref", "on_sngl_order" ]
+                  "required" : [ "ca_sngl_cost", "ca_sngl_department", "ca_sngl_description", "ca_sngl_item_ref" ]
                 }
               },
               "required" : [ "ca_single_item" ]
@@ -663,7 +653,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS2306671079132994170.wsdl
+  URI: /tmp/DFHLS2JS5439383638137136812.wsdl
 
 
 Creating ICM: WSDLTemplateOperationRequest
@@ -675,9 +665,9 @@ Creating ICM: WSDLTemplateOperationRequest
  message type: Request Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS2306671079132994170.wsdl
-<!-- loading: file:/tmp/DFHLS2JS2306671079132994170.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS2306671079132994170.wsdl >
+Main input is from: file:/tmp/DFHLS2JS5439383638137136812.wsdl
+<!-- loading: file:/tmp/DFHLS2JS5439383638137136812.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS5439383638137136812.wsdl >
 XML file
 --------
 
@@ -3675,7 +3665,7 @@ SCCSID for ICMBuilderImpl is:
 @(#) ,COM2-201910171409 %I% %E% %U%
 
 URIs for 'types' sections are: 
-  URI: /tmp/DFHLS2JS2306671079132994170.wsdl
+  URI: /tmp/DFHLS2JS5439383638137136812.wsdl
 
 
 Creating ICM: TMP
@@ -3687,9 +3677,9 @@ Creating ICM: TMP
  message type: Directionless Message
  mapping level: 4.3 (TS 5.4 + APAR PI88519 mappings)
 
-Main input is from: file:/tmp/DFHLS2JS2306671079132994170.wsdl
-<!-- loading: file:/tmp/DFHLS2JS2306671079132994170.wsdl >
-<!-- loaded: file:/tmp/DFHLS2JS2306671079132994170.wsdl >
+Main input is from: file:/tmp/DFHLS2JS5439383638137136812.wsdl
+<!-- loading: file:/tmp/DFHLS2JS5439383638137136812.wsdl >
+<!-- loaded: file:/tmp/DFHLS2JS5439383638137136812.wsdl >
 XML file
 --------
 
@@ -6727,8 +6717,8 @@ The contents of the WSBind file follow:
 
 
 Offset: 0x0000000000000000 (0)
- 6ee6e2c2 c9d5c44c 000025e0 f2f0f2f0   f0f6f0f3 f2f0f1f8 010a0000 61a39497      *>WSBIND<...\202006032018..../tmp*
- 61f3f6f8 f4f2f4f0 f1f3f4f7 f9f6f4f3   f3f0f3f9 61a6a260 82899584 a2618785      */3684240134796433039/ws-binds/ge*
+ 6ee6e2c2 c9d5c44c 000025e0 f2f0f2f0   f0f6f0f9 f1f8f4f7 010a0000 61a39497      *>WSBIND<...\202006091847..../tmp*
+ 61f9f1f2 f2f2f5f7 f3f6f7f4 f8f7f1f2   f0f7f9f4 61a6a260 82899584 a2618785      */9122257367487120794/ws-binds/ge*
  a3c99598 a4899985 c381a381 9396874b   a6a28289 95844040 40404040 40404040      *tInquireCatalog.wsbind          *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
@@ -6738,8 +6728,8 @@ Offset: 0x0000000000000000 (0)
  
 Offset: 0x0000000000000100 (256)
  40404040 40404040 40404040 40404040   40404040 40404040 404040c4 00000ac4      *                           D...D*
- 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f2f3 f0f6f6f7 f1f0f7f9 f1f3f2f9      *...../tmp/DFHLS2JS23066710791329*
- f9f4f1f7 f04ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *94170.wsdl                      *
+ 00000001 0161a394 9761c4c6 c8d3e2f2   d1e2f5f4 f3f9f3f8 f3f6f3f8 f1f3f7f1      *...../tmp/DFHLS2JS54393836381371*
+ f3f6f8f1 f24ba6a2 84934040 40404040   40404040 40404040 40404040 40404040      *36812.wsdl                      *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
  40404040 40404040 40404040 40404040   40404040 40404040 40404040 40404040      *                                *
