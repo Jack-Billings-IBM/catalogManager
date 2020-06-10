@@ -17,7 +17,7 @@ pipeline {
             }
         }
         
-        stage('Ceate AAR File') {
+        stage('Save AAR File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
             }
