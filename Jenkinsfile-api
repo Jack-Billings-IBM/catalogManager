@@ -5,9 +5,7 @@ pipeline {
     tools {
         jdk "JDK8"
     }  
-    environment {
-        PAYLOAD = '{"DFH0XCMNOperation":{"ca_order_request":{"ca_item_ref_number":40,"ca_quantity_req":1}}}'
-    }
+
     stages {
         stage('Save AAR File') {
             steps {
@@ -26,7 +24,6 @@ pipeline {
             steps {
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
-                sh 'curl --location --request POST --fail "http://10.1.1.2:9080/catalogManager/orders" --header "Content-Type: application/json" --header "Accept: application/json" --header "Content-Type: text/plain" --data ${PAYLOAD} '
             }
         }
         
