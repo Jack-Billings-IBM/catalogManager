@@ -74,6 +74,15 @@
       *  SYNC.
       *              18 ca-sngl-cost                  PIC X(6).
       * 
+      * Comments for field 'on-sngl-order':
+      * This field represents the value of JSON schema keyword
+      *  'RespBody->DFH0XCMNOperationResponse->ca_inquire_single->ca_si
+      * ngle_item->on_sngl_order'.
+      * JSON schema type: 'integer'.
+      * JSON schema keyword 'maximum' value: '999'.
+      * JSON schema keyword 'minimum' value: '0'.
+      *              18 on-sngl-order                 PIC 9(3) DISPLAY.
+      * 
       *  
       * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
@@ -93,4 +102,5 @@
                      18 ca-sngl-cost-length           PIC S9999 COMP-5
             SYNC.
                      18 ca-sngl-cost                  PIC X(6).
+                     18 on-sngl-order                 PIC 9(3) DISPLAY.
  
