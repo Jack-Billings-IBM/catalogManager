@@ -9,17 +9,24 @@ pipeline {
         PAYLOAD = '{"DFH0XCMNOperation":{"ca_order_request":{"ca_item_ref_number":40,"ca_quantity_req":1}}}'
     }
     stages {
+        stage('Save AAR File') {
+            steps {
+                sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
+            }
+        }
+    
+        stage("Deploy API") {
+            steps {
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                sleep(time:10,unit:"SECONDS") 
+            }
+        }
+    
         stage("Test API") {
             steps {
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40'"
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30'"
                 sh 'curl --location --request POST --fail "http://10.1.1.2:9080/catalogManager/orders" --header "Content-Type: application/json" --header "Accept: application/json" --header "Content-Type: text/plain" --data ${PAYLOAD} '
-            }
-        }
-        
-        stage('Save AAR File') {
-            steps {
-                sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
             }
         }
         
