@@ -4,8 +4,8 @@
         <segment id="1" name="COMMAREA" originalName="COMMAREA">
             <field name="DFH0XCP3" originalName="DFH0XCP3" included="Y" path="DFH0XCP3">
                 <startPos>1</startPos>
-                <bytes>998</bytes>
-                <maxBytes>998</maxBytes>
+                <bytes>893</bytes>
+                <maxBytes>893</maxBytes>
                 <applicationDatatype datatype="STRUCT"/>
                 <field name="CA_REQUEST_ID" originalName="CA_REQUEST_ID" included="Y" path="DFH0XCP3.CA_REQUEST_ID">
                     <startPos>1</startPos>
@@ -30,8 +30,8 @@
                 </field>
                 <field name="CA_INQUIRE_REQUEST" originalName="CA_INQUIRE_REQUEST" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST">
                     <startPos>88</startPos>
-                    <bytes>911</bytes>
-                    <maxBytes>911</maxBytes>
+                    <bytes>806</bytes>
+                    <maxBytes>806</maxBytes>
                     <applicationDatatype datatype="STRUCT"/>
                     <field name="CA_LIST_START_REF" originalName="CA_LIST_START_REF" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST.CA_LIST_START_REF">
                         <startPos>88</startPos>
@@ -62,8 +62,8 @@
                     </field>
                     <field name="CA_CAT_ITEM" originalName="CA_CAT_ITEM" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST.CA_CAT_ITEM" minOccurs="15" maxOccurs="15">
                         <startPos>99</startPos>
-                        <bytes>900</bytes>
-                        <maxBytes>900</maxBytes>
+                        <bytes>795</bytes>
+                        <maxBytes>795</maxBytes>
                         <applicationDatatype datatype="ARRAY"/>
                         <field name="CA_ITEM_REF" originalName="CA_ITEM_REF" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST.CA_CAT_ITEM.CA_ITEM_REF">
                             <bytes>4</bytes>
@@ -90,22 +90,6 @@
                             <bytes>6</bytes>
                             <maxBytes>6</maxBytes>
                             <applicationDatatype datatype="CHAR"/>
-                        </field>
-                        <field name="IN_STOCK" originalName="IN_STOCK" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST.CA_CAT_ITEM.IN_STOCK">
-                            <bytes>4</bytes>
-                            <maxBytes>4</maxBytes>
-                            <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
-<typeConverter>ZONEDDECIMAL</typeConverter>
-                            </marshaller>
-                            <applicationDatatype datatype="DECIMAL" precision="4" scale="0"/>
-                        </field>
-                        <field name="ON_ORDER" originalName="ON_ORDER" included="Y" path="DFH0XCP3.CA_INQUIRE_REQUEST.CA_CAT_ITEM.ON_ORDER">
-                            <bytes>3</bytes>
-                            <maxBytes>3</maxBytes>
-                            <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
-<typeConverter>ZONEDDECIMAL</typeConverter>
-                            </marshaller>
-                            <applicationDatatype datatype="DECIMAL" precision="3" scale="0"/>
                         </field>
                     </field>
                 </field>

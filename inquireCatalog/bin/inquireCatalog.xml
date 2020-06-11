@@ -25,8 +25,6 @@
 <field included="Y" fieldName="CA_DESCRIPTION"/>
 <field included="Y" fieldName="CA_DEPARTMENT"/>
 <field included="Y" fieldName="CA_COST"/>
-<field included="Y" fieldName="IN_STOCK"/>
-<field included="Y" fieldName="ON_ORDER"/>
                             </field>
                         </field>
                     </interfaceField>
@@ -53,8 +51,6 @@
 <field included="Y" fieldName="CA_DESCRIPTION"/>
 <field included="Y" fieldName="CA_DEPARTMENT"/>
 <field included="Y" fieldName="CA_COST"/>
-<field included="Y" fieldName="IN_STOCK"/>
-<field included="Y" fieldName="ON_ORDER"/>
                             </field>
                         </field>
                     </interfaceField>
