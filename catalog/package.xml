@@ -4,9 +4,6 @@
         <path relativePath="/items">
             <method type="GET" zosConnectServiceRef="inquireCatalog" httpXformFile="api/items/GET/mapping.xml" operationId="getInquireCatalog"/>
         </path>
-        <path relativePath="/orders">
-            <method type="POST" zosConnectServiceRef="placeOrder" httpXformFile="api/orders/POST/mapping.xml" operationId="postPlaceOrder"/>
-        </path>
         <path relativePath="/items/{itemID}">
             <method type="GET" zosConnectServiceRef="inquireSingle" httpXformFile="api/items/{itemID}/GET/mapping.xml" operationId="getInquireSingle"/>
         </path>

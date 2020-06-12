@@ -62,34 +62,6 @@
           }
         }
       }
-    },
-    "/orders" : {
-      "post" : {
-        "tags" : [ "catalog" ],
-        "operationId" : "postPlaceOrder",
-        "parameters" : [ {
-          "name" : "Authorization",
-          "in" : "header",
-          "required" : false,
-          "type" : "string"
-        }, {
-          "in" : "body",
-          "name" : "postPlaceOrder_request",
-          "description" : "request body",
-          "required" : true,
-          "schema" : {
-            "$ref" : "#/definitions/postPlaceOrder_request"
-          }
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "OK",
-            "schema" : {
-              "$ref" : "#/definitions/postPlaceOrder_response_200"
-            }
-          }
-        }
-      }
     }
   },
   "definitions" : {
@@ -171,57 +143,6 @@
             }
           },
           "required" : [ "ca_inquire_request", "ca_response_message", "ca_return_code" ]
-        }
-      },
-      "description" : "Response schema for the DFH0XCMN JSON interface"
-    },
-    "postPlaceOrder_request" : {
-      "type" : "object",
-      "required" : [ "DFH0XCMNOperation" ],
-      "properties" : {
-        "DFH0XCMNOperation" : {
-          "type" : "object",
-          "properties" : {
-            "ca_order_request" : {
-              "type" : "object",
-              "properties" : {
-                "ca_item_ref_number" : {
-                  "type" : "integer",
-                  "minimum" : 0,
-                  "maximum" : 9999
-                },
-                "ca_quantity_req" : {
-                  "type" : "integer",
-                  "minimum" : 0,
-                  "maximum" : 999
-                }
-              },
-              "required" : [ "ca_item_ref_number", "ca_quantity_req" ]
-            }
-          },
-          "required" : [ "ca_order_request" ]
-        }
-      },
-      "description" : "Request schema for the DFH0XCMN JSON interface"
-    },
-    "postPlaceOrder_response_200" : {
-      "type" : "object",
-      "required" : [ "DFH0XCMNOperationResponse" ],
-      "properties" : {
-        "DFH0XCMNOperationResponse" : {
-          "type" : "object",
-          "properties" : {
-            "ca_return_code" : {
-              "type" : "integer",
-              "minimum" : 0,
-              "maximum" : 99
-            },
-            "ca_response_message" : {
-              "type" : "string",
-              "maxLength" : 79
-            }
-          },
-          "required" : [ "ca_response_message", "ca_return_code" ]
         }
       },
       "description" : "Response schema for the DFH0XCMN JSON interface"
