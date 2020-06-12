@@ -1,5 +1,5 @@
 
-Total 3 operation(s) (success: 3, ignored: 0) defined in api description file: catalog/api-docs/swagger.json
+Total 2 operation(s) (success: 2, ignored: 0) defined in api description file: catalog/api-docs/swagger.json
 ------ Successfully processed operation(s) ------
 operationId: getInquireCatalog, basePath: /catalogManager, relativePath: /items, method: GET
 - request data structure  : API00Q01
@@ -10,9 +10,4 @@ operationId: getInquireSingle, basePath: /catalogManager, relativePath: /items/{
 - request data structure  : API01Q01
 - response data structure : API01P01
 - api info file           : API01I01
-
-operationId: postPlaceOrder, basePath: /catalogManager, relativePath: /orders, method: POST
-- request data structure  : API02Q01
-- response data structure : API02P01
-- api info file           : API02I01
 
