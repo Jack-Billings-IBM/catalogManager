@@ -7,7 +7,7 @@ pipeline {
     }  
 
     stages {
-        stage('Save AAR File') {
+        stage('Create API Archive File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
             }
@@ -27,7 +27,7 @@ pipeline {
             }
         }
         
-        stage("Create ARA File") {
+        stage("Create API Requester Archive File") {
             steps {
                 sh "zconbt/bin/zconbt --properties=properties/catalog_ara.properties --file=archives/ara/catalog.ara"
             }
@@ -52,10 +52,10 @@ pipeline {
 }
 
 node('nodejs') {
-    stage('Build egui App') {
+    stage('Build node.js egui App') {
         openshiftBuild(buildConfig: 'egui', showBuildLogs: 'true')
     }
-    stage('Deploy egui App') {
+    stage('Deploy node.js egui App') {
         openshiftDeploy(deploymentConfig: 'egui')
     }
 }
