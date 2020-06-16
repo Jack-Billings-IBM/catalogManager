@@ -31,8 +31,8 @@ pipeline {
         
         stage("Test Services") {
             steps {
-                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o test.txt'
-                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} '
+                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o tests/inquireSingle_service.txt'
+                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} -o tests/inquireCatalog_service.txt'
             }
         }
         
