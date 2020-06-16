@@ -22,8 +22,8 @@ pipeline {
     
         stage("Test API") {
             steps {
-                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40' -o inquireCatalog_api.txt"
-                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30' -o inquireSingle_api.txt"
+                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40' -o tests/inquireCatalog_api.txt"
+                sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items/30' -o tests/inquireSingle_api.txt"
             }
         }
         
