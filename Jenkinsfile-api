@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Create API Archive File') {
             steps {
-                sh "zconbt/bin/zconbt --projectDirectory=catalog --outputDirectory=archives"
+                sh "zconbt/bin/zconbt --projectDirectory=catalog --file=archives/catalog.aar"
             }
         }
     
