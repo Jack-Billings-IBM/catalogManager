@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Ceate Service Archive Files') {
             steps {
-                writeFile file: "properties/test.properties", text: "## CICS service provider build toolkit sample properties file for creating a service from existing language structures. \n##REQUIRED PROPERTIES (For optional properties, see below.) \nprovider=cics \nname=inquireSingle \nversion=${VERSION} \ndescription=inquireSingle \nconnectionRef=cicsConn \nprogram=DFH0XCMN \nlanguage=cobol \nprogramInterface=COMMAREA \nrequestStructure=copybooks/DFH0XCP4 \nresponseStructure=copybooks/DFH0XCP4"
+                writeFile file: "properties/test.properties", text: "## CICS service provider build toolkit sample properties file for creating a service from existing language structures. \n##REQUIRED PROPERTIES (For optional properties, see below.) \nprovider=cics \nname=inquireSingle \nversion=${VERSION} \ndescription=inquireSingle \nconnectionRef=cicsConn \nprogram=DFH0XCMN \nlanguage=cobol \nprogramInterface=COMMAREA \nrequestStructure=copybooks/DFH0XCP4 \nresponseStructure=copybooks/DFH0XCP4 \n"
                 sh "cat properties/test.properties"
                 sh "cat properties/inquireSingle.properties"
                 sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
