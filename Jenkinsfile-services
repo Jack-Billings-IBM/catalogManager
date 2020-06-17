@@ -8,7 +8,7 @@ pipeline {
     environment {
         SINGLE = '{"DFH0XCMNOperation":{"ca_request_id":"01INQS","ca_inquire_single":{"ca_item_ref_req":20}}}'
         CATALOG = '{"DFH0XCMNOperation":{"ca_request_id":"01INQC","ca_inquire_request":{"ca_list_start_ref":20}}}'
-        VERSION = VersionNumber projectStartDate: '2020-06-17', versionNumberString: '${BUILD_NUMBER}', versionPrefix: '1.', worstResultForIncrement: 'SUCCESS'
+        VERSION = VersionNumber projectStartDate: '2020-06-17', versionNumberString: '${BUILD_NUMBER}', versionPrefix: '1_', worstResultForIncrement: 'SUCCESS'
     }
     stages {
         stage('Update Copybooks on z/OS') {
@@ -27,7 +27,7 @@ pipeline {
         
         stage("Deploy Service Archive Files") {
             steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/inquireSingle-1.38.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/*.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
                 sleep(time:10,unit:"SECONDS") 
             }
         }
