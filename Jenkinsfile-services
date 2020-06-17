@@ -8,7 +8,7 @@ pipeline {
     environment {
         SINGLE = '{"DFH0XCMNOperation":{"ca_request_id":"01INQS","ca_inquire_single":{"ca_item_ref_req":20}}}'
         CATALOG = '{"DFH0XCMNOperation":{"ca_request_id":"01INQC","ca_inquire_request":{"ca_list_start_ref":20}}}'
-        VersionNumber projectStartDate: '', versionNumberString: '0', versionPrefix: '1', worstResultForIncrement: 'SUCCESS'
+        VERSION = VersionNumber projectStartDate: '', versionNumberString: '0', versionPrefix: '1', worstResultForIncrement: 'SUCCESS'
     }
     stages {
         stage('Update Copybooks on z/OS') {
