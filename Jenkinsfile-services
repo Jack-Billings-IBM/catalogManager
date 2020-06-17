@@ -60,7 +60,7 @@ pipeline {
 }                
 node {
     stage("test") {
-        def props = readJSON file: 'dir/input.json'
+        def props = readJSON file: 'tests/inquireSingle_service.json'
         assert props['attr1'] == 'One'
         assert props.attr1 == 'One'
     }
