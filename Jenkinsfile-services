@@ -38,7 +38,7 @@ pipeline {
                 sh "cat tests/inquireSingle_service.json"
                 sh "cat tests/inquireCatalog_service.json"
                 findText(textFinders: [
-                    textFinder(regexp: 'on_sngl_order', fileSet: 'tests/inquireSingle_service.json', buildResult: 'FAILURE'),
+                    textFinder(regexp: 'on_sngl_order', fileSet: 'tests/inquireSingle_service.json', buildResult: 'SUCCESS'),
                     textFinder(regexp: 'in_sngl_stock', fileSet: 'tests/inquireSingle_service.json', buildResult: 'SUCCESS')
                 ])
             }
