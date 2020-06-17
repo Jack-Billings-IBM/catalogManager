@@ -61,7 +61,7 @@ pipeline {
 node {
     stage("test") {
         def props = readJSON file: 'tests/inquireSingle_service.json'
-        assert props['attr1'] == 'DFH0XCMNOperationResponse'
-        assert props.attr1 == 'DFH0XCMNOperationResponse'
+        assert props['ca_request_id'] == '01INQS'
+        assert props.ca_request_id == '01INQS'
     }
 }
