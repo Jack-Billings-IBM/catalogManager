@@ -31,7 +31,7 @@ pipeline {
         
         stage("Test Services") {
             steps {
-                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o tests/inquireSingle_service.txt'
+                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o tests/inquireSingle_service.json'
                 sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} -o tests/inquireCatalog_service.txt'
                 findText(textFinders: [textFinder(regexp: 'jkfldshjdlkfhj', fileSet: 'copybooks/DFH0XCP3', succeedIfFound: true)])
             }
@@ -60,6 +60,8 @@ pipeline {
 }                
 node {
     stage("test") {
-        def files = findFiles(glob: 'tests/inquireSingle_service.txt') echo """${files[0].name} ${files[0].path} ${files[0].directory} ${files[0].length} ${files[0].lastModified}"""
+        def props = readJSON file: 'dir/input.json'
+        assert props['attr1'] == 'One'
+        assert props.attr1 == 'One'
     }
 }
