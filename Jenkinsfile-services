@@ -20,14 +20,14 @@ pipeline {
         }
         stage('Ceate Service Archive Files') {
             steps {
-                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSinglE.sar"
+                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
                 sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
             }
         }
         
         stage("Deploy Service Archive Files") {
             steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/inquireSinglE.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/services', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/*.sar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
                 sleep(time:10,unit:"SECONDS") 
             }
         }
