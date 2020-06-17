@@ -33,6 +33,9 @@ pipeline {
             steps {
                 sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o tests/inquireSingle_service.txt'
                 sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} -o tests/inquireCatalog_service.txt'
+                def lines = new File('tests/inquireSingle_service.txt').readLines()
+                def result = lines.findAll { it.contains('DFH0XCMNOperationResponse') }
+                println result*.toString()
                 findText(textFinders: [textFinder(regexp: 'DFH0XCMNOperationResponse', fileSet: 'tests/inquireSingle_service.txt')])
             }
         }
