@@ -18,6 +18,7 @@ pipeline {
         }
         stage('Ceate Service Archive Files') {
             steps {
+                sh "cat properties/inquireSingle.properties"
                 sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
                 sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
             }
