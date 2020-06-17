@@ -13,13 +13,13 @@ pipeline {
     stages {
         stage('Update Copybooks on z/OS') {
             steps {
-                sh 'echo "$VERSION"';
+                sh 'echo "test$VERSION"';
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: true, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: "'DFH540.CICS.SDFHSAMP'", remoteDirectorySDF: false, removePrefix: 'copybooks', sourceFiles: 'copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
             }
         }
         stage('Ceate Service Archive Files') {
             steps {
-                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
+                sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle${VERSION}.sar"
                 sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
             }
         }
