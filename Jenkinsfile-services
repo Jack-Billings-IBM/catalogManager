@@ -13,8 +13,6 @@ pipeline {
     stages {
         stage('Update Copybooks on z/OS') {
             steps {
-                sh 'echo "test${VERSION}"';
-                sh 'echo "test$VERSION"';
                 ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: true, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: "'DFH540.CICS.SDFHSAMP'", remoteDirectorySDF: false, removePrefix: 'copybooks', sourceFiles: 'copybooks/*']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
             }
         }
@@ -34,8 +32,12 @@ pipeline {
         
         stage("Test Services") {
             steps {
-                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE}'
-                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG}'
+                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireSingle?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${SINGLE} -o tests/inquireSingle_service.json'
+                sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} -o tests/inquireCatalog_service.json'
+                findText(textFinders: [
+                    textFinder(regexp: 'on_sngl_order', fileSet: 'tests/inquireSingle_service.json', buildResult: 'SUCCESS'),
+                    textFinder(regexp: 'in_sngl_stock', fileSet: 'tests/inquireSingle_service.json', buildResult: 'SUCCESS')
+                ])
             }
         }
         
