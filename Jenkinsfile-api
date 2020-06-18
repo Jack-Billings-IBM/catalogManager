@@ -9,13 +9,13 @@ pipeline {
     stages {
         stage('Create API Archive File') {
             steps {
-                sh "zconbt/bin/zconbt --projectDirectory=catalog --file=archives/catalog.aar"
+                sh "zconbt/bin/zconbt --projectDirectory=catalog --file=catalog/catalog.aar"
             }
         }
     
         stage("Deploy API") {
             steps {
-                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: 'catalog', sourceFiles: 'catalog/catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
                 sleep(time:10,unit:"SECONDS") 
             }
         }
