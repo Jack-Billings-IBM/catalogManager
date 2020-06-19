@@ -3,11 +3,27 @@ pipeline {
     tools {
         jdk "JDK8"
     }  
+    
+    environment {
+        remote = [:]
+    }
 
     stages {
         stage('Create API Archive File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --file=archives/catalog.aar"
+            }
+        }
+        
+        stage('please work') {
+            steps {
+                ${remote}.name = 'test'
+                ${remote}.host = 'test.domain.com'
+                ${remote}.user = 'root'
+                sh 'cat ${remote}'
+                ${remote}.password = 'password'
+                ${remote}.allowAnyHosts = true
+                sshPut remote: ${remote}, from: 'catalog.aar', into: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis'
             }
         }
         
