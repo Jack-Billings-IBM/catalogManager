@@ -1,6 +1,5 @@
 node {
 
-    stages {
         stage('Create API Archive File') {
             steps {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --file=archives/catalog.aar"
@@ -53,7 +52,6 @@ node {
                 }
             }
         }
-    }
 }
 
 node('nodejs') {
