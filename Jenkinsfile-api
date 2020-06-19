@@ -1,7 +1,4 @@
 node {
-    tools {
-        jdk "JDK8"
-    }
 
     stages {
         stage('Create API Archive File') {
