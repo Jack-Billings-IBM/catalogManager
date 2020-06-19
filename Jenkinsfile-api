@@ -28,9 +28,7 @@ node {
 }
     
 pipeline {
-    agent {
-        label 'master'
-    }
+    agent none
         stage("Test API") {
             steps {
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40' -o tests/inquireCatalog_api.json"
