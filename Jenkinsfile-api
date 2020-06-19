@@ -13,15 +13,8 @@ pipeline {
         
         stage('Deploy API') {
             steps {
-                scripts {
-                    def remote = [:]
-                    remote.name = 'zOS'
-                    remote.host = '10.1.1.2'
-                    remote.user = 'ibmuser'
-                    remote.password = 'thor13'
-                    remote.allowAnyHosts = true
-                    sshPut remote: remote, from: 'catalog.aar', into: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis'
-                }
+                ftpPublisher alwaysPublishFromMaster: true, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                sleep(time:10,unit:"SECONDS")
             }
         }
 
