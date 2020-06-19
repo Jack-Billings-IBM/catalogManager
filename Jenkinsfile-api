@@ -17,7 +17,7 @@ node {
         
         def remote = [:]
         remote.name = 'zOS'
-        remote.host = 't10.1.1.2'
+        remote.host = '10.1.1.2'
         remote.user = 'ibmuser'
         remote.password = 'thor13'
         remote.allowAnyHosts = true
