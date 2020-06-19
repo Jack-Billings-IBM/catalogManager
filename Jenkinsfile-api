@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'master'
-    }
+    agent any
     tools {
         jdk "JDK8"
     }  
@@ -12,15 +10,14 @@ pipeline {
                 sh "zconbt/bin/zconbt --projectDirectory=catalog --file=archives/catalog.aar"
             }
         }
-    
-        stage("Deploy API") {
+        
+        stage('Deploy API') {
             steps {
-                sh "zconbt/bin/zconbt --projectDirectory=catalog --file=catalog.aar"
-                ftpPublisher alwaysPublishFromMaster: true, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: '', sourceFiles: 'catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true]]             
-                sleep(time:10,unit:"SECONDS") 
+                ftpPublisher alwaysPublishFromMaster: true, continueOnError: false, failOnError: true, masterNodeName: '', paramPublish: null, publishers: [[configName: 'zOS', transfers: [[asciiMode: false, cleanRemote: false, excludes: '', flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis', remoteDirectorySDF: false, removePrefix: 'archives', sourceFiles: 'archives/catalog.aar']], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]             
+                sleep(time:10,unit:"SECONDS")
             }
         }
-    
+
         stage("Test API") {
             steps {
                 sh "curl -X GET --fail --header 'Accept: application/json' 'http://10.1.1.2:9080/catalogManager/items?startItemID=40' -o tests/inquireCatalog_api.json"
