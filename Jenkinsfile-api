@@ -50,7 +50,17 @@ pipeline {
         }
     }
 }
-
+node {
+  def remote = [:]
+  remote.name = 'zOS'
+  remote.host = '10.1.1.2'
+  remote.user = 'ibmuser'
+  remote.password = 'thor13'
+  remote.allowAnyHosts = true
+  stage('Remote SSH') {
+    sshPut remote: remote, from: 'catalog.aar', into: '/var/zosconnect/servers/catalogManager/resources/zosconnect/apis'
+  }
+}
 node('nodejs') {
     stage('Build node.js egui App') {
         openshiftBuild(buildConfig: 'egui', showBuildLogs: 'true')
