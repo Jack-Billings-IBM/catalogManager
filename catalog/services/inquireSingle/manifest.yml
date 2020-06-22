@@ -23,5 +23,5 @@ providerProperties:
   value: "files/inquireSingle.wsbind"
   type: "FILE"
 providerObjects: []
-version: "1.0.15"
+version: "1.0.1"
 description: "inquireSingle"
