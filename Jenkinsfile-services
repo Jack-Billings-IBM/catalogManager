@@ -37,6 +37,11 @@ pipeline {
                 sh 'curl --location --fail --request POST "http://10.1.1.2:9080/zosConnect/services/inquireCatalog?action=invoke" --header "Content-Type: application/json" --header "Content-Type: text/plain" --data ${CATALOG} -o tests/inquireCatalog_service.json'
                 sh "cat tests/inquireSingle_service.json"
                 sh "cat tests/inquireCatalog_service.json"
+                script {
+                     def props = readJSON file: 'tests/inquireSingle_service.json'
+                     assert props['DFH0XCMNOperationResponse']['ca_inquire_single']['ca_single_item']['on_sngl_order'] == 50
+                     assert props['DFH0XCMNOperationResponse']['ca_inquire_single']['ca_single_item']['in_sngl_stock'] == 6
+                }
             }
         }
         
