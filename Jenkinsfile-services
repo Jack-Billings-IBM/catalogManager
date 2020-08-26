@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Ceate Service Archive Files') {
             steps {
-                echo "JDK is ${jdk}"
+                sh 'java -version'
                 writeFile file: "properties/inquireSingle.properties", text: "## CICS service provider build toolkit sample properties file for creating a service from existing language structures. \n##REQUIRED PROPERTIES (For optional properties, see below.) \nprovider=cics \nname=inquireSingle \nversion=${VERSION} \ndescription=inquireSingle \nconnectionRef=cicsConn \nprogram=DFH0XCMN \nlanguage=cobol \nprogramInterface=COMMAREA \nrequestStructure=copybooks/DFH0XCP4 \nresponseStructure=copybooks/DFH0XCP4 \n"
                 sh "zconbt/bin/zconbt --properties=properties/inquireSingle.properties --file=archives/inquireSingle.sar"
                 sh "zconbt/bin/zconbt --properties=properties/inquireCatalog.properties --file=archives/inquireCatalog.sar"
