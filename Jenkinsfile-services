@@ -4,6 +4,7 @@ pipeline {
     }
     tools {
         jdk "JDK8"
+        echo "JDK is ${jdk}"
     }
     environment {
         SINGLE = '{"DFH0XCMNOperation":{"ca_request_id":"01INQS","ca_inquire_single":{"ca_item_ref_req":20}}}'
